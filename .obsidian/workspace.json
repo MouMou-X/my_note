@@ -8,38 +8,54 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f227d3c4e447b9e6",
+            "id": "c8ec4f02df1b1275",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02root/Inbox(收集箱)/note/教程/Cursor使用教程.md",
+                "file": "02Inbox(收集箱)/homepage_template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cursor使用教程"
+              "title": "homepage_template"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5461c2cae78baff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a761a240cd1cf32e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01个人主页/规划文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "规划文档"
             }
           },
           {
-            "id": "cc2cdaf5ade45ddb",
+            "id": "70ee04ddff7b5fdf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "皆可问.canvas",
-                "viewState": {
-                  "x": 76.81640625,
-                  "y": -159.148125,
-                  "zoom": 0
-                }
+                "file": "01个人主页/主页.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "皆可问"
+              "icon": "lucide-file",
+              "title": "主页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "皆可问.canvas",
+                "file": "01个人主页/规划文档.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "皆可问 的大纲"
+              "title": "规划文档 的大纲"
             }
           },
           {
@@ -191,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,54 +223,54 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cc2cdaf5ade45ddb",
+  "active": "a761a240cd1cf32e",
   "lastOpenFiles": [
-    "学习方法.md",
-    "皆可问.canvas",
-    "04work/工作项目/opencompass/opencompass.md",
-    "04work/工作项目/opencompass",
-    "学习笔记：如何全面衡量一个大模型预training的好坏？.md",
+    "06Archive(归档)/Archive_main.md",
+    "01个人主页/规划文档.md",
+    "01个人主页/主页.md",
     "未命名.base",
-    "02root/Project(项目)/JackQwen-v1.2-周四 22511.zip",
+    "02Inbox(收集箱)/homepage_template.md",
+    "01.md",
+    "01个人主页/个人主页.canvas",
+    "05Resources(资源)/mermaid.md",
+    "07daily/2025-06-22.md",
+    "template/日记模版/日记模版.md",
+    "07daily/视图/视图.md",
+    "02Inbox(收集箱)/Inbox_main.md",
+    "02Inbox(收集箱)/note/钩子（hook）.md",
+    "02Inbox(收集箱)/note/函数、对象、属性、方法.md",
+    "03Project(项目)/Project_main.md",
+    "05Resources(资源)/obsidian tip/url.md",
+    "02Inbox(收集箱)/note/教程/Agent开发学习指南.md",
+    "05Resources(资源)/obsidian tip/Vim相关教程/a-Vim相关教程.md",
+    "02Inbox(收集箱)/note/教程/Cursor使用教程.md",
+    "05Resources(资源)/obsidian tip/Vim相关教程/b-Vim历史.md",
+    "05Resources(资源)/obsidian tip/Vim相关教程/b-Vim命令.md",
+    "05Resources(资源)/obsidian tip/Vim相关教程/png001.png",
+    "05Resources(资源)/obsidian tip/templater/banners 与tp.web.random_picture冲突.md",
+    "05Resources(资源)/obsidian tip/templater/templater插件.md",
+    "05Resources(资源)/obsidian tip/Callouts模板/Callouts教程.md",
+    "template/Callouts模版.md",
+    "05Resources(资源)/obsidian tip/Callouts模板/在 Obsidian Callout 中添加自定义 SVG 图标.md",
+    "05Resources(资源)/obsidian tip/Callouts模板/使用css在obsidian分栏.md",
+    "皆可问.canvas",
+    "05Resources(资源)/obsidian tip",
+    "Excalidraw",
+    "03Project(项目)/work",
+    "03Project(项目)/周会/6b9c618e3178d219063f83feed4b8f9c.png",
+    "03Project(项目)/work/面试/Pasted Image 20250625144800_965.png",
+    "03Project(项目)/work/面试/Pasted image 20250625142250.png",
+    "03Project(项目)/work/工作项目/opencompass",
+    "03Project(项目)/JackQwen-v1.2-周四 22511.zip",
     "02root/Project(项目)/chatui/chatui-v1.1.tar.gz",
     "02root/Project(项目)/chatui/chatui-v1.1.zip",
     "02root/Project(项目)/chatui/package.sh",
-    "02root/Project(项目)/chatui/v1修复说明.md",
-    "02root/Project(项目)/chatui/v1更新说明.md",
-    "02root/Project(项目)/chatui/修复说明.md",
     "02root/Project(项目)/chatui/test_client.py",
-    "02root/Project(项目)/chatui/启动指南.md",
-    "02root/Project(项目)/chatui/start.sh",
-    "02root/Project(项目)/chatui/测试结果.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/requests-2.32.5.dist-info/licenses/LICENSE",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/requests-2.32.5.dist-info/licenses",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/starlette-0.27.0.dist-info/licenses/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/uvicorn-0.24.0.dist-info/licenses/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/pip/_vendor/idna/LICENSE.md",
-    "02root/Project(项目)/chatui/README.md",
-    "02root/Project(项目)/chatui/路线规划.md",
-    "线性代数/1.3.1常见线性算子.md",
-    "02root/Inbox(收集箱)/note/教程/templater/banners 与tp.web.random_picture冲突.md",
-    "02root/Inbox(收集箱)/note/教程/templater/templater插件.md",
-    "02root/Inbox(收集箱)/note/教程/Agent开发学习指南.md",
-    "02root/Inbox(收集箱)/note/教程/Cursor使用教程.md",
-    "线性代数/2.4 向量叉积的几何和物理意义.md",
-    "数学分析/未命名.md",
-    "idea.md",
-    "04work/面试/Pasted image 20250625142250.png",
-    "01个人主页/个人主页.canvas",
-    "04work/面试/Pasted Image 20250625144800_965.png",
-    "04work/周会/6b9c618e3178d219063f83feed4b8f9c.png",
     "Pasted Image 20250625144817_833.png",
     "Pasted Image 20250625145457_954.png",
     "Pasted Image 20250625145427_481.png",
     "Pasted Image 20250625144933_787.png",
     "Pasted Image 20250625144843_939.png",
-    "17e2f13c617b245ee6f1c7ec193b377c.png",
-    "16068fabc10f43cf0bb73a110a55e75e.jpg"
+    "17e2f13c617b245ee6f1c7ec193b377c.png"
   ]
 }
