@@ -1,0 +1,57 @@
+{
+  "editorStatus": {
+    "isTextInserting": false
+  },
+  "providers": [
+    {
+      "tag": "Gemini",
+      "vendor": "Gemini",
+      "options": {
+        "apiKey": "AIzaSyCLPmBW1rPlis-Dj-OL8OygsdHUDnnmnI4",
+        "baseURL": "https://generativelanguage.googleapis.com",
+        "model": "gemini-2.5-pro",
+        "parameters": {}
+      }
+    },
+    {
+      "tag": "OpenAI",
+      "vendor": "OpenAI",
+      "options": {
+        "apiKey": "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",
+        "baseURL": "https://api.openai.com/v1",
+        "model": "gpt-5",
+        "parameters": {}
+      }
+    }
+  ],
+  "systemTags": [
+    "System",
+    "系统"
+  ],
+  "newChatTags": [
+    "NewChat",
+    "新对话"
+  ],
+  "userTags": [
+    "User",
+    "我"
+  ],
+  "roleEmojis": {
+    "assistant": "✨",
+    "system": "🔧",
+    "newChat": "🚀",
+    "user": "💬"
+  },
+  "promptTemplates": [],
+  "enableInternalLink": true,
+  "enableInternalLinkForAssistantMsg": false,
+  "answerDelayInMilliseconds": 2000,
+  "confirmRegenerate": true,
+  "enableTagSuggest": true,
+  "tagSuggestMaxLineLength": 20,
+  "enableExportToJSONL": false,
+  "enableReplaceTag": false,
+  "enableDefaultSystemMsg": false,
+  "defaultSystemMsg": "",
+  "enableStreamLog": false
+}

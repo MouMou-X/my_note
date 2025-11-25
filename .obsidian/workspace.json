@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "c05fa9b5ef2b12fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "274f0279a824cc3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f227d3c4e447b9e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02root/Inbox(收集箱)/note/教程/Cursor使用教程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cursor使用教程"
+            }
+          },
+          {
+            "id": "cc2cdaf5ade45ddb",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "皆可问.canvas",
+                "viewState": {
+                  "x": 76.81640625,
+                  "y": -159.148125,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "皆可问"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56efef00df053c1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed9d4e0f0de1a550",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59d8c7a04422531d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8fb80df934b31721",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "85da37b9349ad334",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289.5
+  },
+  "right": {
+    "id": "882ec5c7f40cfbae",
+    "type": "split",
+    "children": [
+      {
+        "id": "79ce269113cec55b",
+        "type": "tabs",
+        "dimension": 66.18217054263566,
+        "children": [
+          {
+            "id": "0e479bdba66f48cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "皆可问.canvas",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "皆可问 的大纲"
+            }
+          },
+          {
+            "id": "00505212f91fc7d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "线性代数/1.3 线性映射和线性变换的几何意义.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "1.3 线性映射和线性变换的几何意义 的反向链接列表"
+            }
+          },
+          {
+            "id": "018307680d6ed0bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f7f38561dc527f71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "线性代数/1.3 线性映射和线性变换的几何意义.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "1.3 线性映射和线性变换的几何意义 的出链列表"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b0dc2ee6513e9c63",
+        "type": "tabs",
+        "dimension": 33.81782945736434,
+        "children": [
+          {
+            "id": "4c37cdc23bdc18df",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "cc2cdaf5ade45ddb",
+  "lastOpenFiles": [
+    "学习方法.md",
+    "皆可问.canvas",
+    "04work/工作项目/opencompass/opencompass.md",
+    "04work/工作项目/opencompass",
+    "学习笔记：如何全面衡量一个大模型预training的好坏？.md",
+    "未命名.base",
+    "02root/Project(项目)/JackQwen-v1.2-周四 22511.zip",
+    "02root/Project(项目)/chatui/chatui-v1.1.tar.gz",
+    "02root/Project(项目)/chatui/chatui-v1.1.zip",
+    "02root/Project(项目)/chatui/package.sh",
+    "02root/Project(项目)/chatui/v1修复说明.md",
+    "02root/Project(项目)/chatui/v1更新说明.md",
+    "02root/Project(项目)/chatui/修复说明.md",
+    "02root/Project(项目)/chatui/test_client.py",
+    "02root/Project(项目)/chatui/启动指南.md",
+    "02root/Project(项目)/chatui/start.sh",
+    "02root/Project(项目)/chatui/测试结果.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/requests-2.32.5.dist-info/licenses/LICENSE",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/requests-2.32.5.dist-info/licenses",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/starlette-0.27.0.dist-info/licenses/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/uvicorn-0.24.0.dist-info/licenses/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "02root/Project(项目)/chatui/venv/lib/python3.9/site-packages/pip/_vendor/idna/LICENSE.md",
+    "02root/Project(项目)/chatui/README.md",
+    "02root/Project(项目)/chatui/路线规划.md",
+    "线性代数/1.3.1常见线性算子.md",
+    "02root/Inbox(收集箱)/note/教程/templater/banners 与tp.web.random_picture冲突.md",
+    "02root/Inbox(收集箱)/note/教程/templater/templater插件.md",
+    "02root/Inbox(收集箱)/note/教程/Agent开发学习指南.md",
+    "02root/Inbox(收集箱)/note/教程/Cursor使用教程.md",
+    "线性代数/2.4 向量叉积的几何和物理意义.md",
+    "数学分析/未命名.md",
+    "idea.md",
+    "04work/面试/Pasted image 20250625142250.png",
+    "01个人主页/个人主页.canvas",
+    "04work/面试/Pasted Image 20250625144800_965.png",
+    "04work/周会/6b9c618e3178d219063f83feed4b8f9c.png",
+    "Pasted Image 20250625144817_833.png",
+    "Pasted Image 20250625145457_954.png",
+    "Pasted Image 20250625145427_481.png",
+    "Pasted Image 20250625144933_787.png",
+    "Pasted Image 20250625144843_939.png",
+    "17e2f13c617b245ee6f1c7ec193b377c.png",
+    "16068fabc10f43cf0bb73a110a55e75e.jpg"
+  ]
+}

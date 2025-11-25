@@ -1,0 +1,27 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Edited": "datetime",
+    "Created": "datetime",
+    "日期": "date",
+    "持续时间": "number",
+    "持续时间(分钟)": "number",
+    "出席者": "multitext",
+    "Meeting Link": "text",
+    "情境": "text",
+    "精力": "multitext",
+    "截止日期": "date",
+    "每日亮点": "checkbox",
+    "12父任务": "text",
+    "16Edited": "datetime",
+    "状态": "text",
+    "归档": "checkbox",
+    "weather": "text",
+    "habit_1": "checkbox",
+    "habit_2": "checkbox",
+    "habit_3": "checkbox",
+    "habit_4": "checkbox"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "新建文本文档",
+    "css分栏"
+  ],
+  "cssTheme": "Blue Topaz",
+  "accentColor": "#81a1c1"
+}

@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:template/Callouts模板/Callouts模版.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ]
+}

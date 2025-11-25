@@ -1,0 +1,101 @@
+/* ======================================================= */
+/* 全新方案：使用 Flexbox 实现响应式多布局 */
+/* ======================================================= */
+
+/* 1. 基础容器样式 (适用于所有 Flexbox 分栏) */
+/* 我们使用 [data-callout*="columns-flex"] 来匹配所有 "columns-flex" 开头的 callout */
+.callout[data-callout*="columns-flex"] {
+/* 清除容器自身的样式 */
+padding: 0;
+border: none;
+background-color: transparent;
+box-shadow: none;
+}
+.callout[data-callout*="columns-flex"] > .callout-title {
+display: none;
+}
+/* 2. 真正的 Flexbox 布局容器 (.callout-content) */
+.callout[data-callout*="columns-flex"] > .callout-content {
+display: flex;
+flex-wrap: wrap; /* 允许换行，这是响应式的关键 */
+gap: 20px;
+}
+/* 3. 基础栏目样式 (子 Callout) */
+.callout[data-callout*="columns-flex"] > .callout-content > .callout {
+margin: 0;
+flex-grow: 1; /* 允许栏目“成长”以填满空间 */
+flex-basis: 0; /* 基础宽度为0，让 flex-grow 完全控制宽度 */
+min-width: 250px; /* 每个栏目的最小宽度，触发换行的阈值 */
+}
+
+
+
+/* ======================================================= */
+/* 优化2：布局变化 (三栏布局) */
+/* ======================================================= */
+
+/* 针对三栏布局，我们可以设置一个更小的 min-width，让它在更宽的屏幕上才能三栏并排 */
+.callout[data-callout="columns-flex-3"] > .callout-content > .callout {
+min-width: 220px; /* 您可以根据需要调整这个值 */
+}
+
+/* ======================================================= */
+/* 优化1：响应式设计 (手机适配) - Flexbox 版本 */
+/* ======================================================= */
+
+/* 对于 Flexbox，我们不需要像 Grid 那样在 media query 里写很多东西。
+因为 `flex-wrap: wrap` 和 `min-width` 的组合已经天然地实现了响应式效果。
+当容器宽度不足以放下多个达到 min-width 的栏目时，它会自动换行。
+所以，上面的代码已经包含了响应式功能！
+*/
+/*
+* ===================================================================
+* 最终方案：带内嵌旋转动画的自定义图标
+* ===================================================================
+*/
+
+/* 针对 [!column] 这个 callout */
+.callout[data-callout="column"] {
+--callout-color: 255, 255, 255; /* 保留您的颜色设置 */
+}
+
+/* 1. 将默认显示的 Lucide 图标彻底隐藏 */
+.callout[data-callout="column"] .callout-icon .svg-icon {
+display: none;
+}
+/* 2. 在原本放图标的容器上，用背景图的方式画上我们自己的“自带动画的”图标 */
+.callout[data-callout="column"] .callout-icon {
+/* 设置容器尺寸以匹配您的图标大小 */
+width: 19.9px;
+height: 19.9px;
+/* 将包含内嵌动画的 SVG Data URI 设置为背景图像 */
+background-image: url('data:image/svg+xml,%3Csvg width="19.9" height="19.9" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cstyle%3E.rotating-rect %7B transform-origin: 100px 100px; animation: rotate 5s linear infinite; %7D @keyframes rotate %7B from %7B transform: rotate(0deg); %7D to %7B transform: rotate(360deg); %7D %7D%3C/style%3E%3Crect x="50" y="50" width="100" height="100" fill="%23FF5733" class="rotating-rect"%3E%3C/rect%3E%3C/svg%3E');
+
+/* 确保背景图完整、不重复、居中显示 */
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+/* ======================================================= */
+/* 优化3：修复分栏独立折叠时的样式问题                 */
+/* ======================================================= */
+
+/*
+ * 针对多栏布局中，处于折叠状态 (is-collapsed) 的子 callout
+ * 解决折叠后边框线和背景依然残留的问题
+*/
+.callout[data-callout*="columns-flex"] > .callout-content > .callout.is-collapsed {
+    /* * 核心修复：覆盖 Flexbox 的拉伸行为。
+     * 让折叠后的 callout 高度由其自身内容（即标题栏）决定，而不是被动拉伸。
+     */
+    align-self: flex-start;
+
+    /* 移除边框和阴影，让它在视觉上更干净 */
+    border: none;
+    box-shadow: none;
+
+    /* 移除背景色，让它完全“融入”父容器的背景 */
+    background-color: transparent;
+}
