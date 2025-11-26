@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "03daily",
+      "folder": "07daily",
       "template": "template/日记模版/日记模版.md"
     }
   ],

@@ -22,6 +22,9 @@
     "habit_1": "checkbox",
     "habit_2": "checkbox",
     "habit_3": "checkbox",
-    "habit_4": "checkbox"
+    "habit_4": "checkbox",
+    "type": "multitext",
+    "status": "multitext",
+    "priority": "multitext"
   }
 }
