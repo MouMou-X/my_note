@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01个人主页/规划文档-gemini.md",
+                "file": "template/日记模版/日记模版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "规划文档-gemini"
+              "title": "日记模版"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07daily/2025-11-28.md",
+                "file": "07daily/2025-12-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-28"
+              "title": "2025-12-09"
             }
           }
         ],
@@ -110,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07daily/2025-11-28.md",
+                "file": "07daily/2025-12-09.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-28 的大纲"
+              "title": "2025-12-09 的大纲"
             }
           },
           {
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,36 +205,36 @@
   },
   "active": "8380bfc4143223fc",
   "lastOpenFiles": [
-    "01个人主页/规划文档.md",
+    "07daily/视图/视图.md",
+    "07daily/2025-12-09.md",
+    "07daily/2025-06-22.md",
+    "07daily/2025-07-03.md",
+    "template/日记模版/日记模版.md",
+    "未命名.md",
+    "07daily/2025-12-08.md",
+    "template/标签模板/New-Task.md",
+    "07daily/2025-11-26.md",
+    "07daily/2025-11-28.md",
+    "template/标签模板/New-Resource.md",
+    "template/标签模板/New-Event.md",
+    "template/标签模板/New-Project.md",
     "01个人主页/规划文档-gemini.md",
+    "0.目录：线性代数的集合定义.md",
     "03Project(项目)/Project_main.md",
+    "02Inbox(收集箱)/Inbox_main.md",
+    "02Inbox(收集箱)/homepage_template.md",
+    "01个人主页/主页.md",
+    "01个人主页/规划文档.md",
     "正则表达式笔记.md",
     "gemini3_ssysterm_prompt.md",
     "grok4thinking_systerm_prompt.md",
-    "02Inbox(收集箱)/homepage_template.md",
     "学习方法.md",
-    "07daily/2025-11-26.md",
     "多智能体系统.md",
-    "07daily/2025-11-28.md",
-    "template/日记模版/日记模版.md",
     "03daily/2025-11-26.md",
     "03daily",
     "04Areas(领域)/数学",
-    "template/标签模板/New-Task.md",
-    "template/标签模板/banners.md",
-    "template/标签模板/New-Resource.md",
-    "template/标签模板/New-Project.md",
-    "template/标签模板/New-Event.md",
-    "01个人主页/主页.md",
-    "template/YAML.md",
     "未命名.base",
-    "06Archive(归档)/Archive_main.md",
-    "01.md",
     "01个人主页/个人主页.canvas",
-    "05Resources(资源)/mermaid.md",
-    "07daily/2025-06-22.md",
-    "07daily/视图/视图.md",
-    "02Inbox(收集箱)/Inbox_main.md",
     "05Resources(资源)/obsidian tip/Vim相关教程/png001.png",
     "皆可问.canvas",
     "05Resources(资源)/obsidian tip",

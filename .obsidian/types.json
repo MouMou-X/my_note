@@ -25,6 +25,7 @@
     "habit_4": "checkbox",
     "type": "multitext",
     "status": "multitext",
-    "priority": "multitext"
+    "priority": "multitext",
+    "sleep_hours": "number"
   }
 }
