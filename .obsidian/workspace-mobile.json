@@ -25,12 +25,14 @@
             "id": "bdedbda8e90fa3fe",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-07-07 22.00.28.excalidraw.md"
+                "file": "07daily/2025-11-28.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-07 22.00.28.excalidraw"
+              "icon": "lucide-file",
+              "title": "2025-11-28"
             }
           }
         ],
@@ -111,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2025-07-07 22.00.28.excalidraw.md",
+            "file": "正则表达式笔记.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -159,15 +161,16 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "lucide-file",
-          "title": "插件不再活动"
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -180,6 +183,9 @@
   },
   "active": "bdedbda8e90fa3fe",
   "lastOpenFiles": [
+    "正则表达式笔记.md",
+    "07daily/2025-11-28.md",
+    "07daily/2025-11-27.md",
     "template/Callouts模板/使用css在obsidian分栏.md",
     "线性代数/线性代数的集合意义.md",
     "线性代数/1.1 “代数”的意义.md",

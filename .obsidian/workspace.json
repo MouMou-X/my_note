@@ -4,101 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "274f0279a824cc3d",
+        "id": "7e6ce253b02f47bc",
         "type": "tabs",
         "children": [
           {
-            "id": "c8ec4f02df1b1275",
+            "id": "2b9da952e5db717c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02Inbox(收集箱)/homepage_template.md",
+                "file": "01个人主页/规划文档-gemini.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homepage_template"
+              "title": "规划文档-gemini"
             }
           },
           {
-            "id": "8dd03d4aa127d905",
+            "id": "8380bfc4143223fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习方法.md",
+                "file": "07daily/2025-11-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习方法"
-            }
-          },
-          {
-            "id": "5f56565ed713e2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template/标签模板/New-Task.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "New-Task"
-            }
-          },
-          {
-            "id": "3c72feed326426ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template/标签模板/banners.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "banners"
+              "title": "2025-11-28"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "5461c2cae78baff3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b4a133398b96145e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07daily/2025-11-26.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-11-26"
-            }
-          },
-          {
-            "id": "330f521becd5517c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01个人主页/规划文档.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "规划文档"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07daily/2025-11-26.md",
+                "file": "07daily/2025-11-28.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26 的大纲"
+              "title": "2025-11-28 的大纲"
             }
           },
           {
@@ -250,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,16 +204,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b4a133398b96145e",
+  "active": "8380bfc4143223fc",
   "lastOpenFiles": [
-    "template/日记模版/日记模版.md",
+    "01个人主页/规划文档.md",
+    "01个人主页/规划文档-gemini.md",
+    "03Project(项目)/Project_main.md",
+    "正则表达式笔记.md",
+    "gemini3_ssysterm_prompt.md",
+    "grok4thinking_systerm_prompt.md",
+    "02Inbox(收集箱)/homepage_template.md",
+    "学习方法.md",
     "07daily/2025-11-26.md",
+    "多智能体系统.md",
+    "07daily/2025-11-28.md",
+    "template/日记模版/日记模版.md",
     "03daily/2025-11-26.md",
     "03daily",
-    "01个人主页/规划文档-gemini.md",
-    "01个人主页/规划文档.md",
     "04Areas(领域)/数学",
-    "学习方法.md",
     "template/标签模板/New-Task.md",
     "template/标签模板/banners.md",
     "template/标签模板/New-Resource.md",
@@ -282,7 +228,6 @@
     "template/标签模板/New-Event.md",
     "01个人主页/主页.md",
     "template/YAML.md",
-    "02Inbox(收集箱)/homepage_template.md",
     "未命名.base",
     "06Archive(归档)/Archive_main.md",
     "01.md",
@@ -291,12 +236,6 @@
     "07daily/2025-06-22.md",
     "07daily/视图/视图.md",
     "02Inbox(收集箱)/Inbox_main.md",
-    "02Inbox(收集箱)/note/钩子（hook）.md",
-    "02Inbox(收集箱)/note/函数、对象、属性、方法.md",
-    "03Project(项目)/Project_main.md",
-    "05Resources(资源)/obsidian tip/url.md",
-    "02Inbox(收集箱)/note/教程/Agent开发学习指南.md",
-    "05Resources(资源)/obsidian tip/Vim相关教程/a-Vim相关教程.md",
     "05Resources(资源)/obsidian tip/Vim相关教程/png001.png",
     "皆可问.canvas",
     "05Resources(资源)/obsidian tip",
