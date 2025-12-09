@@ -26,6 +26,8 @@
     "type": "multitext",
     "status": "multitext",
     "priority": "multitext",
-    "sleep_hours": "number"
+    "sleep_hours": "number",
+    "url": "multitext",
+    "类型": "multitext"
   }
 }

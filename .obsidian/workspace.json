@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/日记模版/日记模版.md",
+                "file": "07daily/2025-12-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "日记模版"
-            }
-          },
-          {
-            "id": "8380bfc4143223fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07daily/2025-12-09.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-09"
+              "title": "2025-12-10"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07daily/2025-12-09.md",
+                "file": "07daily/2025-12-10.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-09 的大纲"
+              "title": "2025-12-10 的大纲"
             }
           },
           {
@@ -203,19 +188,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8380bfc4143223fc",
+  "active": "2b9da952e5db717c",
   "lastOpenFiles": [
+    "07daily/2025-12-09.md",
+    "07daily/2025-12-10.md",
+    "04Areas(领域)/LLM_Map/00LLM_Map.md",
+    "LLM_Map.md",
+    "02Inbox(收集箱)/Inbox_main.md",
+    "template/日记模版/日记模版.md",
+    "gemini3_systerm_prompt.md",
+    "04Areas(领域)/LLM_Map/guiagent.md",
+    "04Areas(领域)/LLM_Map/上采样、下采样.md",
+    "04Areas(领域)/LLM_Map/多路召回.md",
+    "03Project(项目)/work/工作项目/opencompass/opencompass.md",
+    "04Areas(领域)/Areas_main.md",
+    "04Areas(领域)/LLM_Map",
     "06Archive(归档)/Archive_main.md",
     "05Resources(资源)/Resources_main.md",
-    "02Inbox(收集箱)/Inbox_main.md",
     "03Project(项目)/Project_main.md",
-    "04Areas(领域)/Areas_main.md",
-    "07daily/2025-12-09.md",
     "多智能体系统.md",
-    "template/日记模版/日记模版.md",
-    "02Inbox(收集箱)/note/上采样、下采样.md",
-    "02Inbox(收集箱)/note/多路召回.md",
-    "02Inbox(收集箱)/note/guiagent.md",
     "json合并.md",
     "07daily/视图/视图.md",
     "07daily/2025-06-22.md",
@@ -226,11 +217,6 @@
     "07daily/2025-11-26.md",
     "07daily/2025-11-28.md",
     "template/标签模板/New-Resource.md",
-    "template/标签模板/New-Event.md",
-    "template/标签模板/New-Project.md",
-    "01个人主页/规划文档-gemini.md",
-    "0.目录：线性代数的集合定义.md",
-    "02Inbox(收集箱)/homepage_template.md",
     "03daily",
     "04Areas(领域)/数学",
     "未命名.base",
@@ -246,7 +232,6 @@
     "03Project(项目)/work/工作项目/opencompass",
     "03Project(项目)/JackQwen-v1.2-周四 22511.zip",
     "02root/Project(项目)/chatui/chatui-v1.1.tar.gz",
-    "02root/Project(项目)/chatui/chatui-v1.1.zip",
     "Pasted Image 20250625144817_833.png",
     "Pasted Image 20250625145457_954.png",
     "Pasted Image 20250625145427_481.png",
