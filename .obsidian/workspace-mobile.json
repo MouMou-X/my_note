@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04Areas(领域)/LLM_Map/LLM_Map.md",
+                "file": "grok4thinking_systerm_prompt.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "LLM_Map"
+              "title": "grok4thinking_systerm_prompt"
             }
           }
         ],
@@ -183,6 +183,8 @@
   },
   "active": "bdedbda8e90fa3fe",
   "lastOpenFiles": [
+    "07daily/2025-12-10.md",
+    "gemini3_systerm_prompt.md",
     "正则表达式笔记.md",
     "07daily/2025-11-28.md",
     "07daily/2025-11-27.md",

@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AI英语单词学习卡片</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        /* 顶部控制栏 */
+        .header {
+            background: rgba(30, 41, 59, 0.95);
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        .header h1 {
+            font-size: 20px;
+            color: #e2e8f0;
+            margin: 0;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            background: #3b82f6;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        button:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: #10b981;
+        }
+
+        .btn-secondary:hover {
+            background: #059669;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-danger {
+            background: #ef4444;
+        }
+
+        .btn-danger:hover {
+            background: #dc2626;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+        }
+
+        /* 卡片容器 */
+        .card-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            touch-action: pan-y;
+        }
+
+        .card-wrapper {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 600px;
+            height: 450px;
+            position: relative;
+            cursor: grab;
+        }
+
+        .card-wrapper.dragging {
+            cursor: grabbing;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            padding: 30px;
+            background: #1e293b;
+            overflow-y: auto;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        /* 正面 - 单词显示 */
+        .card-front {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .word-main {
+            font-size: 48px;
+            font-weight: bold;
+            color: #f1f5f9;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+        }
+
+        .phonetic {
+            font-size: 18px;
+            color: #94a3b8;
+            margin-bottom: 10px;
+        }
+
+        .difficulty {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+            font-size: 14px;
+            margin-top: 10px;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .flip-hint {
+            margin-top: 30px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        /* 背面 - 详细内容 */
+        .card-back {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #f1f5f9;
+            margin-bottom: 8px;
+            font-size: 16px;
+            border-left: 4px solid #3b82f6;
+            padding-left: 10px;
+        }
+
+        .definition-item {
+            margin-bottom: 8px;
+            padding-left: 15px;
+            color: #cbd5e1;
+        }
+
+        .sentence {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: rgba(59, 130, 246, 0.2);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            color: #93c5fd;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        /* 进度指示器 */
+        .progress-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: rgba(15, 23, 42, 0.5);
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+            transition: width 0.3s;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+        }
+
+        .progress-text {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            background: rgba(30, 41, 59, 0.9);
+            color: #e2e8f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        /* 导航按钮 */
+        .nav-buttons {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 10;
+        }
+
+        .nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            transition: all 0.3s;
+            color: #e2e8f0;
+        }
+
+        .nav-btn:hover {
+            background: rgba(30, 41, 59, 1);
+            transform: scale(1.1);
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+            border-color: rgba(59, 130, 246, 0.6);
+        }
+
+        /* 模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1e293b;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+            padding-bottom: 15px;
+        }
+
+        .modal-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #f1f5f9;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: #64748b;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+        }
+
+        .close-btn:hover {
+            color: #94a3b8;
+            transform: none;
+        }
+
+        /* 表单样式 */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #cbd5e1;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid rgba(148, 163, 184, 0.2);
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+            background: rgba(15, 23, 42, 0.5);
+            color: #e2e8f0;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #3b82f6;
+            background: rgba(15, 23, 42, 0.7);
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        input[type="file"] {
+            padding: 10px 0;
+        }
+
+        .preset-words {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .preset-btn {
+            padding: 15px;
+            background: rgba(15, 23, 42, 0.5);
+            border: 2px solid rgba(148, 163, 184, 0.2);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: #e2e8f0;
+        }
+
+        .preset-btn:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+            transform: none;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+        }
+
+        /* 加载动画 */
+        .loading {
+            display: none !important; /* 完全禁用加载弹窗 */
+        }
+
+        /* 流式生成提示 */
+        .stream-indicator {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: rgba(59, 130, 246, 0.9);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            z-index: 100;
+            display: none;
+            animation: pulse 1.5s infinite;
+        }
+
+        .stream-indicator.active {
+            display: block;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        /* 卡片字段渐入动画 */
+        .fade-in {
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 自定义滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.3);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(59, 130, 246, 0.5);
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(59, 130, 246, 0.8);
+        }
+
+        /* Firefox 滚动条样式 */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: rgba(59, 130, 246, 0.5) rgba(15, 23, 42, 0.3);
+        }
+
+        /* 删除按钮 */
+        .delete-btn {
+            position: fixed;
+            bottom: 100px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(239, 68, 68, 0.9);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .delete-btn:hover {
+            background: rgba(220, 38, 38, 1);
+            transform: scale(1.1);
+            box-shadow: 0 4px 20px rgba(239, 68, 68, 0.6);
+        }
+
+        .delete-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .header {
+                padding: 10px 15px;
+            }
+
+            .header h1 {
+                font-size: 16px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .header-buttons {
+                width: 100%;
+                justify-content: center;
+            }
+
+            button {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+
+            .card-wrapper {
+                height: 400px;
+            }
+
+            .word-main {
+                font-size: 36px;
+            }
+
+            .card-face {
+                padding: 20px;
+            }
+
+            .nav-buttons {
+                bottom: 80px;
+            }
+
+            .delete-btn {
+                bottom: 80px;
+                right: 15px;
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+
+            .modal-content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-wrapper {
+                height: 350px;
+            }
+
+            .word-main {
+                font-size: 28px;
+            }
+
+            .section-title {
+                font-size: 14px;
+            }
+
+            .delete-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部控制栏 -->
+    <div class="header">
+        <h1>📚 AI英语单词学习卡片</h1>
+        <div class="header-buttons">
+            <button onclick="showAddWordsModal()">➕ 添加单词</button>
+            <button onclick="showSettingsModal()">⚙️ 设置</button>
+            <button class="btn-secondary" onclick="exportData()">💾 导出</button>
+            <button class="btn-secondary" onclick="importData()">📂 导入</button>
+        </div>
+    </div>
+
+    <!-- 卡片容器 -->
+    <div class="card-container">
+        <div class="card-wrapper" id="cardWrapper">
+            <div class="card" id="card">
+                <!-- 正面 -->
+                <div class="card-face card-front">
+                    <div class="word-main" id="wordMain">点击"添加单词"开始学习</div>
+                    <div class="phonetic" id="phonetic"></div>
+                    <div class="difficulty" id="difficulty"></div>
+                    <div class="flip-hint">👆 点击卡片查看详细内容</div>
+                </div>
+                <!-- 背面 -->
+                <div class="card-face card-back" id="cardBack">
+                    <div id="detailContent">点击卡片返回正面</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航按钮 -->
+    <div class="nav-buttons">
+        <button class="nav-btn" onclick="previousCard()">◀</button>
+        <button class="nav-btn" onclick="nextCard()">▶</button>
+    </div>
+
+    <!-- 删除按钮 -->
+    <button class="delete-btn" onclick="deleteCurrentCard()" title="删除当前卡片">🗑️</button>
+
+    <!-- 流式生成提示 -->
+    <div class="stream-indicator" id="streamIndicator">🚀 正在生成...</div>
+
+    <!-- 进度条 -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div class="progress-text" id="progressText">0 / 0</div>
+
+    <!-- 添加单词模态框 -->
+    <div class="modal" id="addWordsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">添加单词</h2>
+                <button class="close-btn" onclick="closeModal('addWordsModal')">&times;</button>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">预设单词列表</label>
+                <div class="preset-words">
+                    <div class="preset-btn" onclick="loadPresetWords('cet4')">
+                        <div style="font-size: 24px; margin-bottom: 5px;">📘</div>
+                        <div>CET-4</div>
+                    </div>
+                    <div class="preset-btn" onclick="loadPresetWords('cet6')">
+                        <div style="font-size: 24px; margin-bottom: 5px;">📗</div>
+                        <div>CET-6</div>
+                    </div>
+                    <div class="preset-btn" onclick="loadPresetWords('kaoyan')">
+                        <div style="font-size: 24px; margin-bottom: 5px;">📕</div>
+                        <div>考研</div>
+                    </div>
+                    <div class="preset-btn" onclick="loadPresetWords('ielts')">
+                        <div style="font-size: 24px; margin-bottom: 5px;">📙</div>
+                        <div>雅思</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">或手动输入单词（每行一个）</label>
+                <textarea id="wordsInput" placeholder="例如：&#10;apple&#10;banana&#10;computer"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">或从Excel导入</label>
+                <input type="file" id="excelFile" accept=".xlsx,.xls,.csv" onchange="handleExcelUpload(event)">
+                <small style="color: #718096;">支持Excel (.xlsx, .xls) 和 CSV 文件，第一列为单词</small>
+            </div>
+
+            <button onclick="generateCards()" style="width: 100%; padding: 12px; font-size: 16px;">🚀 生成学习卡片</button>
+        </div>
+    </div>
+
+    <!-- 设置模态框 -->
+    <div class="modal" id="settingsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">设置</h2>
+                <button class="close-btn" onclick="closeModal('settingsModal')">&times;</button>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">DeepSeek API地址</label>
+                <input type="text" id="apiUrl" placeholder="https://api.deepseek.com/v1/chat/completions" value="https://api.deepseek.com/v1/chat/completions">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">API Key</label>
+                <input type="text" id="apiKey" placeholder="sk-dd2b6ebd351a43eab8ea63a26ce2ecc6" value="sk-dd2b6ebd351a43eab8ea63a26ce2ecc6">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">模型名称</label>
+                <input type="text" id="modelName" placeholder="deepseek-chat" value="deepseek-chat">
+            </div>
+
+            <button onclick="saveSettings()" style="width: 100%; padding: 12px; font-size: 16px;">💾 保存设置</button>
+        </div>
+    </div>
+
+    <!-- 流式生成提示 -->
+    <div class="stream-indicator" id="streamIndicator">🚀 正在生成...</div>
+
+    <!-- 加载动画（已禁用） -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <div id="loadingText">正在生成学习内容...</div>
+        <div style="color: #94a3b8; font-size: 12px; margin-top: 10px;" id="loadingProgress">准备中...</div>
+    </div>
+
+    <script>
+        // 全局状态
+        let cards = [];
+        let currentIndex = 0;
+        let isFlipped = false;
+        let settings = {
+            apiUrl: 'https://api.deepseek.com/v1/chat/completions',
+            apiKey: 'sk-dd2b6ebd351a43eab8ea63a26ce2ecc6',
+            modelName: 'deepseek-chat'
+        };
+
+        // 预设单词列表
+        const presetWordLists = {
+            cet4: ['abandon', 'ability', 'abroad', 'absence', 'absolute', 'absorb', 'abstract', 'abundant', 'abuse', 'academic'],
+            cet6: ['abolish', 'abortion', 'abrupt', 'absurd', 'acclaim', 'accommodate', 'accomplish', 'accord', 'accountable', 'accumulate'],
+            kaoyan: ['acknowledge', 'acquaintance', 'acquisition', 'activate', 'acute', 'adaptable', 'adequate', 'adhere', 'adjacent', 'adjoin'],
+            ielts: ['aesthetic', 'affection', 'affluent', 'aggravate', 'aggregate', 'agile', 'agricultural', 'albeit', 'allocate', 'alternative']
+        };
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSettings();
+            loadProgress();
+            initCardInteraction();
+            initKeyboardNavigation();
+        });
+
+        // 加载设置
+        function loadSettings() {
+            const saved = localStorage.getItem('wordLearningSettings');
+            if (saved) {
+                settings = JSON.parse(saved);
+                document.getElementById('apiUrl').value = settings.apiUrl;
+                document.getElementById('apiKey').value = settings.apiKey;
+                document.getElementById('modelName').value = settings.modelName;
+            }
+        }
+
+        // 保存设置
+        function saveSettings() {
+            settings.apiUrl = document.getElementById('apiUrl').value;
+            settings.apiKey = document.getElementById('apiKey').value;
+            settings.modelName = document.getElementById('modelName').value;
+            localStorage.setItem('wordLearningSettings', JSON.stringify(settings));
+            alert('✅ 设置已保存！');
+            closeModal('settingsModal');
+        }
+
+        // 加载学习进度
+        function loadProgress() {
+            const saved = localStorage.getItem('wordLearningCards');
+            if (saved) {
+                cards = JSON.parse(saved);
+                const savedIndex = localStorage.getItem('wordLearningIndex');
+                currentIndex = savedIndex ? parseInt(savedIndex) : 0;
+                if (cards.length > 0) {
+                    showCard(currentIndex);
+                }
+            }
+        }
+
+        // 保存学习进度
+        function saveProgress() {
+            localStorage.setItem('wordLearningCards', JSON.stringify(cards));
+            localStorage.setItem('wordLearningIndex', currentIndex.toString());
+        }
+
+        // 显示模态框
+        function showAddWordsModal() {
+            document.getElementById('addWordsModal').classList.add('active');
+        }
+
+        function showSettingsModal() {
+            document.getElementById('settingsModal').classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        // 加载预设单词
+        function loadPresetWords(type) {
+            const words = presetWordLists[type];
+            document.getElementById('wordsInput').value = words.join('\n');
+        }
+
+        // 处理Excel上传
+        async function handleExcelUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            // 这里需要引入 xlsx 库来解析 Excel
+            // 为了简化，我们暂时只支持 CSV
+            if (file.name.endsWith('.csv')) {
+                const text = await file.text();
+                const lines = text.split('\n');
+                const words = lines.map(line => line.split(',')[0].trim()).filter(w => w);
+                document.getElementById('wordsInput').value = words.join('\n');
+            } else {
+                alert('暂时仅支持 CSV 文件，或者手动输入单词列表');
+            }
+        }
+
+        // 生成学习卡片（流式渲染版）
+        async function generateCards() {
+            const input = document.getElementById('wordsInput').value.trim();
+            if (!input) {
+                alert('请输入单词或选择预设列表！');
+                return;
+            }
+
+            if (!settings.apiKey) {
+                alert('请先在设置中配置 API Key！');
+                showSettingsModal();
+                return;
+            }
+
+            const words = input.split('\n').map(w => w.trim()).filter(w => w);
+            console.log('准备流式生成卡片，单词列表:', words);
+            console.log(`总共 ${words.length} 个单词，将按每批 8 个并发生成...`);
+            
+            closeModal('addWordsModal');
+            
+            // 显示流式提示
+            const streamIndicator = document.getElementById('streamIndicator');
+            streamIndicator.classList.add('active');
+
+            try {
+                const startTime = Date.now();
+                const BATCH_SIZE = 8; // 每批并发数量
+                let processedCount = 0;
+                
+                // 分批处理，每批并发 8 个
+                for (let i = 0; i < words.length; i += BATCH_SIZE) {
+                    const batch = words.slice(i, i + BATCH_SIZE);
+                    const batchSize = batch.length;
+                    
+                    console.log(`\n=== 开始第 ${Math.floor(i / BATCH_SIZE) + 1} 批，并发处理 ${batchSize} 个单词 ===`);
+                    streamIndicator.textContent = `🚀 正在生成: ${batch.join(', ')} (${processedCount + 1}-${processedCount + batchSize}/${words.length})`;
+                    
+                    // 并发生成当前批次的所有卡片
+                    const promises = batch.map((word, index) => {
+                        console.log(`[批次${Math.floor(i / BATCH_SIZE) + 1}] 启动任务 ${index + 1}/${batchSize}: ${word}`);
+                        return generateCardWithStreamRender(word);
+                    });
+                    
+                    // 等待当前批次完成
+                    const results = await Promise.all(promises);
+                    
+                    // 统计当前批次结果
+                    const batchSuccess = results.filter(r => r).length;
+                    const batchFailed = results.filter(r => !r).length;
+                    processedCount += batchSize;
+                    
+                    console.log(`✓ 第 ${Math.floor(i / BATCH_SIZE) + 1} 批完成: 成功 ${batchSuccess}, 失败 ${batchFailed}`);
+                }
+                
+                const endTime = Date.now();
+                const duration = ((endTime - startTime) / 1000).toFixed(2);
+                
+                streamIndicator.classList.remove('active');
+                
+                console.log(`\n=== 所有卡片生成完成 ===`);
+                console.log(`总耗时: ${duration}秒`);
+                console.log(`成功生成 ${cards.length} 个学习卡片`);
+                console.log(`平均每个单词耗时: ${(duration / words.length).toFixed(2)}秒`);
+                
+                if (cards.length > 0) {
+                    saveProgress();
+                } else {
+                    console.error('所有单词都生成失败');
+                }
+            } catch (error) {
+                streamIndicator.classList.remove('active');
+                console.error('生成过程出错:', error);
+            }
+        }
+
+        // 流式生成并渲染单个卡片
+        async function generateCardWithStreamRender(word) {
+            // 创建一个空白卡片，立即显示
+            const emptyCard = {
+                word: word,
+                phonetic_us: '',
+                phonetic_uk: '',
+                difficulty_level: '',
+                definitions: [],
+                etymology: {},
+                memory_aids: {},
+                collocations: [],
+                sentences: [],
+                synonyms: [],
+                antonyms: [],
+                confusion_alert: ''
+            };
+            
+            // 如果是第一个卡片，添加到cards并显示
+            if (cards.length === 0) {
+                cards.push(emptyCard);
+                currentIndex = 0;
+                showCard(0);
+            } else {
+                // 如果不是第一个，添加到列表但不显示
+                cards.push(emptyCard);
+            }
+            
+            const cardIndex = cards.length - 1;
+            
+            const prompt = `请为英语单词 "${word}" 生成详细的学习内容，严格按照以下 JSON 格式返回：
+
+{
+  "word": "${word}",
+  "phonetic_us": "美式音标",
+  "phonetic_uk": "英式音标",
+  "difficulty_level": "CEFR分级",
+  "definitions": [{"pos": "词性", "meaning": "释义", "example": "例句"}],
+  "etymology": {"origin": "词源", "breakdown": "分析"},
+  "memory_aids": {"mnemonic": "口诀", "story": "故事"},
+  "collocations": ["搭配1", "搭配2"],
+  "sentences": [{"en": "英文", "zh": "中文"}],
+  "synonyms": ["同义词"],
+  "antonyms": ["反义词"],
+  "confusion_alert": "易混淆提示"
+}`;
+
+            try {
+                const response = await fetch(settings.apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${settings.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: settings.modelName,
+                        messages: [
+                            { role: 'system', content: '你是英语教学助手，请返回JSON格式。' },
+                            { role: 'user', content: prompt }
+                        ],
+                        temperature: 0.7,
+                        stream: true
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API请求失败: ${response.status}`);
+                }
+
+                // 流式读取并解析
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let buffer = '';
+                let fullContent = '';
+                let partialData = {};
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split('\n');
+                    buffer = lines.pop() || '';
+
+                    for (const line of lines) {
+                        if (line.startsWith('data: ')) {
+                            const data = line.slice(6);
+                            if (data === '[DONE]') continue;
+                            
+                            try {
+                                const parsed = JSON.parse(data);
+                                if (parsed.choices?.[0]?.delta?.content) {
+                                    const chunk = parsed.choices[0].delta.content;
+                                    fullContent += chunk;
+                                    
+                                    // 尝试解析当前JSON
+                                    const jsonMatch = fullContent.match(/\{[\s\S]*/);
+                                    if (jsonMatch) {
+                                        try {
+                                            // 尝试解析不完整的JSON
+                                            const tempJson = jsonMatch[0];
+                                            const fields = extractPartialJSON(tempJson);
+                                            
+                                            // 合并新解析的字段
+                                            Object.assign(partialData, fields);
+                                            
+                                            // 实时更新卡片
+                                            Object.assign(cards[cardIndex], partialData);
+                                            
+                                            // 如果当前正在查看这张卡片，实时刷新
+                                            if (currentIndex === cardIndex) {
+                                                updateCardDisplay(cardIndex, partialData);
+                                            }
+                                        } catch (e) {
+                                            // 忽略解析错误，继续积累
+                                        }
+                                    }
+                                }
+                            } catch (e) {
+                                // 忽略
+                            }
+                        }
+                    }
+                }
+
+                // 最终解析完整JSON
+                const jsonMatch = fullContent.match(/\{[\s\S]*\}/);
+                if (jsonMatch) {
+                    const finalData = JSON.parse(jsonMatch[0]);
+                    cards[cardIndex] = finalData;
+                    if (currentIndex === cardIndex) {
+                        showCard(cardIndex);
+                    }
+                    return true; // 返回true表示成功
+                }
+                
+                return partialData ? true : false; // 有部分数据也算成功
+                
+            } catch (error) {
+                console.error(`[${word}] 错误:`, error.message);
+                return false; // 返回false表示失败
+            }
+        }
+
+        // 提取部分JSON字段
+        function extractPartialJSON(jsonStr) {
+            const fields = {};
+            
+            // 提取word
+            const wordMatch = jsonStr.match(/"word"\s*:\s*"([^"]+)"/);
+            if (wordMatch) fields.word = wordMatch[1];
+            
+            // 提取音标
+            const usMatch = jsonStr.match(/"phonetic_us"\s*:\s*"([^"]+)"/);
+            if (usMatch) fields.phonetic_us = usMatch[1];
+            
+            const ukMatch = jsonStr.match(/"phonetic_uk"\s*:\s*"([^"]+)"/);
+            if (ukMatch) fields.phonetic_uk = ukMatch[1];
+            
+            // 提取难度
+            const diffMatch = jsonStr.match(/"difficulty_level"\s*:\s*"([^"]+)"/);
+            if (diffMatch) fields.difficulty_level = diffMatch[1];
+            
+            return fields;
+        }
+
+        // 更新卡片显示（部分更新）
+        function updateCardDisplay(index, partialData) {
+            if (partialData.word) {
+                const wordEl = document.getElementById('wordMain');
+                if (wordEl.textContent !== partialData.word) {
+                    wordEl.textContent = partialData.word;
+                    wordEl.classList.add('fade-in');
+                    setTimeout(() => wordEl.classList.remove('fade-in'), 300);
+                }
+            }
+            
+            if (partialData.phonetic_us || partialData.phonetic_uk) {
+                const phoneticEl = document.getElementById('phonetic');
+                phoneticEl.innerHTML = `🇺🇸 ${partialData.phonetic_us || ''} &nbsp;&nbsp; 🇬🇧 ${partialData.phonetic_uk || ''}`;
+                phoneticEl.classList.add('fade-in');
+                setTimeout(() => phoneticEl.classList.remove('fade-in'), 300);
+            }
+            
+            if (partialData.difficulty_level) {
+                const diffEl = document.getElementById('difficulty');
+                diffEl.textContent = `难度: ${partialData.difficulty_level}`;
+                diffEl.classList.add('fade-in');
+                setTimeout(() => diffEl.classList.remove('fade-in'), 300);
+            }
+        }
+
+        // 显示卡片
+        function showCard(index) {
+            if (cards.length === 0 || index < 0 || index >= cards.length) return;
+
+            const card = cards[index];
+            const cardElement = document.getElementById('card');
+            
+            // 重置翻转状态
+            isFlipped = false;
+            cardElement.classList.remove('flipped');
+
+            // 更新正面
+            document.getElementById('wordMain').textContent = card.word;
+            document.getElementById('phonetic').innerHTML = 
+                `🇺🇸 ${card.phonetic_us || ''} &nbsp;&nbsp; 🇬🇧 ${card.phonetic_uk || ''}`;
+            document.getElementById('difficulty').textContent = `难度: ${card.difficulty_level || 'N/A'}`;
+
+            // 更新背面
+            let backHTML = '';
+
+            // 释义
+            if (card.definitions && card.definitions.length > 0) {
+                backHTML += '<div class="section"><div class="section-title">📖 释义</div>';
+                card.definitions.forEach(def => {
+                    backHTML += `<div class="definition-item"><strong>${def.pos}</strong> ${def.meaning}<br><em style="color: #718096;">${def.example || ''}</em></div>`;
+                });
+                backHTML += '</div>';
+            }
+
+            // 词源
+            if (card.etymology) {
+                backHTML += `<div class="section">
+                    <div class="section-title">🌱 词源</div>
+                    <div>${card.etymology.origin || ''}</div>
+                    <div style="color: #718096; margin-top: 5px;">${card.etymology.breakdown || ''}</div>
+                </div>`;
+            }
+
+            // 记忆技巧
+            if (card.memory_aids) {
+                backHTML += `<div class="section">
+                    <div class="section-title">💡 记忆技巧</div>
+                    <div><strong>口诀：</strong>${card.memory_aids.mnemonic || ''}</div>
+                    <div style="margin-top: 5px;"><strong>故事：</strong>${card.memory_aids.story || ''}</div>
+                </div>`;
+            }
+
+            // 常用搭配
+            if (card.collocations && card.collocations.length > 0) {
+                backHTML += `<div class="section">
+                    <div class="section-title">🔗 常用搭配</div>
+                    <div class="tags">
+                        ${card.collocations.map(c => `<span class="tag">${c}</span>`).join('')}
+                    </div>
+                </div>`;
+            }
+
+            // 例句
+            if (card.sentences && card.sentences.length > 0) {
+                backHTML += '<div class="section"><div class="section-title">📝 例句</div>';
+                card.sentences.forEach(s => {
+                    backHTML += `<div class="sentence">
+                        <div>${s.en || ''}</div>
+                        <div style="color: #718096; margin-top: 5px;">${s.zh || ''}</div>
+                    </div>`;
+                });
+                backHTML += '</div>';
+            }
+
+            // 同义词/反义词
+            if (card.synonyms && card.synonyms.length > 0) {
+                backHTML += `<div class="section">
+                    <div class="section-title">🔄 同义词</div>
+                    <div class="tags">
+                        ${card.synonyms.map(s => `<span class="tag">${s}</span>`).join('')}
+                    </div>
+                </div>`;
+            }
+
+            if (card.antonyms && card.antonyms.length > 0) {
+                backHTML += `<div class="section">
+                    <div class="section-title">↔️ 反义词</div>
+                    <div class="tags">
+                        ${card.antonyms.map(a => `<span class="tag">${a}</span>`).join('')}
+                    </div>
+                </div>`;
+            }
+
+            // 易混淆提示
+            if (card.confusion_alert) {
+                backHTML += `<div class="section">
+                    <div class="section-title">⚠️ 易混淆</div>
+                    <div style="background: #fff5f5; padding: 10px; border-radius: 6px; color: #c53030;">
+                        ${card.confusion_alert}
+                    </div>
+                </div>`;
+            }
+
+            document.getElementById('detailContent').innerHTML = backHTML;
+
+            // 更新进度
+            updateProgress();
+        }
+
+        // 更新进度显示
+        function updateProgress() {
+            const total = cards.length;
+            const current = currentIndex + 1;
+            const percentage = total > 0 ? (current / total) * 100 : 0;
+
+            document.getElementById('progressFill').style.width = percentage + '%';
+            document.getElementById('progressText').textContent = `${current} / ${total}`;
+        }
+
+        // 卡片交互 - 点击翻转
+        function initCardInteraction() {
+            const cardElement = document.getElementById('card');
+            const cardWrapper = document.getElementById('cardWrapper');
+
+            // 点击翻转
+            cardElement.addEventListener('click', () => {
+                isFlipped = !isFlipped;
+                cardElement.classList.toggle('flipped');
+            });
+
+            // 触摸滑动
+            let touchStartX = 0;
+            let touchEndX = 0;
+
+            cardWrapper.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+
+            cardWrapper.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                if (touchEndX < touchStartX - swipeThreshold) {
+                    // 向左滑动 - 下一张
+                    nextCard();
+                }
+                if (touchEndX > touchStartX + swipeThreshold) {
+                    // 向右滑动 - 上一张
+                    previousCard();
+                }
+            }
+
+            // 鼠标拖拽
+            let isDragging = false;
+            let dragStartX = 0;
+
+            cardWrapper.addEventListener('mousedown', (e) => {
+                // 只在卡片上按下时才开始拖拽
+                if (e.target.closest('.card')) {
+                    isDragging = true;
+                    dragStartX = e.clientX;
+                    cardWrapper.classList.add('dragging');
+                }
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging) {
+                    const diff = e.clientX - dragStartX;
+                    if (Math.abs(diff) > 10) {
+                        e.preventDefault();
+                    }
+                }
+            });
+
+            document.addEventListener('mouseup', (e) => {
+                if (isDragging) {
+                    const dragEndX = e.clientX;
+                    const diff = dragEndX - dragStartX;
+                    const dragThreshold = 100;
+
+                    if (diff < -dragThreshold) {
+                        nextCard();
+                    } else if (diff > dragThreshold) {
+                        previousCard();
+                    }
+
+                    isDragging = false;
+                    cardWrapper.classList.remove('dragging');
+                }
+            });
+        }
+
+        // 键盘导航
+        function initKeyboardNavigation() {
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') {
+                    previousCard();
+                } else if (e.key === 'ArrowRight') {
+                    nextCard();
+                } else if (e.key === ' ') {
+                    e.preventDefault();
+                    document.getElementById('card').click();
+                }
+            });
+        }
+
+        // 上一张卡片
+        function previousCard() {
+            if (cards.length === 0) return;
+            currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+            showCard(currentIndex);
+            saveProgress();
+        }
+
+        // 下一张卡片
+        function nextCard() {
+            if (cards.length === 0) return;
+            currentIndex = (currentIndex + 1) % cards.length;
+            showCard(currentIndex);
+            saveProgress();
+        }
+
+        // 删除当前卡片
+        function deleteCurrentCard() {
+            if (cards.length === 0) {
+                alert('没有卡片可以删除！');
+                return;
+            }
+
+            const currentWord = cards[currentIndex].word;
+            const confirmDelete = confirm(`确定要删除单词 "${currentWord}" 的卡片吗？\n\n此操作无法撤销！`);
+            
+            if (!confirmDelete) {
+                return;
+            }
+
+            // 删除当前卡片
+            cards.splice(currentIndex, 1);
+            
+            // 如果删除后没有卡片了
+            if (cards.length === 0) {
+                currentIndex = 0;
+                // 显示空白提示
+                document.getElementById('wordMain').textContent = '点击"添加单词"开始学习';
+                document.getElementById('phonetic').innerHTML = '';
+                document.getElementById('difficulty').textContent = '';
+                document.getElementById('detailContent').innerHTML = '点击卡片返回正面';
+                updateProgress();
+            } else {
+                // 调整当前索引
+                if (currentIndex >= cards.length) {
+                    currentIndex = cards.length - 1;
+                }
+                showCard(currentIndex);
+            }
+            
+            // 保存进度
+            saveProgress();
+            
+            console.log(`✓ 已删除单词 "${currentWord}"，剩余 ${cards.length} 张卡片`);
+        }
+
+        // 导出数据
+        function exportData() {
+            const exportObj = {
+                cards: cards,
+                currentIndex: currentIndex,
+                exportTime: new Date().toISOString()
+            };
+
+            const dataStr = JSON.stringify(exportObj, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `word-learning-backup-${Date.now()}.json`;
+            a.click();
+            
+            URL.revokeObjectURL(url);
+            alert('✅ 数据已导出！');
+        }
+
+        // 导入数据
+        function importData() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            
+            input.onchange = (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const importObj = JSON.parse(e.target.result);
+                        
+                        if (confirm('导入将覆盖当前数据，确定继续吗？')) {
+                            cards = importObj.cards || [];
+                            currentIndex = importObj.currentIndex || 0;
+                            
+                            saveProgress();
+                            
+                            if (cards.length > 0) {
+                                showCard(currentIndex);
+                            }
+                            
+                            alert('✅ 数据导入成功！');
+                        }
+                    } catch (error) {
+                        alert('❌ 导入失败：文件格式错误');
+                    }
+                };
+                reader.readAsText(file);
+            };
+            
+            input.click();
+        }
+    </script>
+</body>
+</html>

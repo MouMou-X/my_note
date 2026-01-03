@@ -30,7 +30,7 @@ tags:
     
 - **Agent 体系**：[[ReAct框架]], [[Tool_Use]], [[Memory机制]], [[多智能体协作(Multi-Agent)]],[[guiagent]]
     
-- **数据工程**：[[数据清洗]], [[合成数据(Synthetic Data)]], [[上采样、下采样]] (你日记里提到的)
+- **数据工程**：[[数据清洗]], [[合成数据(Synthetic Data)]], [[上采样、下采样]] 
 	
 - **提示词工程**：[[gemini3_systerm_prompt]], [[grok4thinking_systerm_prompt]]
 

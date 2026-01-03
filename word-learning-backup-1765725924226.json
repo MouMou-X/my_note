@@ -1,0 +1,2547 @@
+{
+  "cards": [
+    {
+      "word": "hello",
+      "phonetic_us": "/həˈloʊ/",
+      "phonetic_uk": "/həˈləʊ/",
+      "difficulty_level": "A1",
+      "definitions": [
+        {
+          "pos": "int.",
+          "meaning": "（用于问候、打招呼或引起注意）喂，你好",
+          "example": "Hello, how are you today?"
+        },
+        {
+          "pos": "n.",
+          "meaning": "问候，招呼",
+          "example": "She gave me a cheerful hello."
+        }
+      ],
+      "etymology": {
+        "origin": "源于19世纪中期，是“hallo”的变体，可能源自“holla”（停止！）或“hollo”（呼喊以引起注意）。",
+        "breakdown": "本身是一个独立的感叹词，没有可拆分的词根词缀。"
+      },
+      "memory_aids": {
+        "mnemonic": "想象电话发明者贝尔（Bell）第一次测试电话时说：“喂（Hello），沃森先生，过来一下。”",
+        "story": "故事：从前有个叫“Hel”的人，他总爱大声喊“Lo！”（看！）来引起别人注意。后来人们把这两个声音合在一起，就成了打招呼的“Hello”。"
+      },
+      "collocations": [
+        "say hello",
+        "hello there",
+        "hello and goodbye"
+      ],
+      "sentences": [
+        {
+          "en": "Hello, my name is Sarah.",
+          "zh": "你好，我的名字是莎拉。"
+        },
+        {
+          "en": "He picked up the phone and said, \"Hello?\"",
+          "zh": "他拿起电话说：“喂？”"
+        },
+        {
+          "en": "I just wanted to stop by and say hello.",
+          "zh": "我只是想顺路过来打个招呼。"
+        }
+      ],
+      "synonyms": [
+        "hi",
+        "greetings"
+      ],
+      "antonyms": [
+        "goodbye",
+        "farewell"
+      ],
+      "confusion_alert": "易混淆词：'hallo'/'hullo'（旧式或英式用法，意思相同，但现代英语中'hello'更常见）。'Hello'是打招呼的通用词，而'Hi'更口语化和随意。"
+    },
+    {
+      "word": "abandon",
+      "phonetic_us": "/əˈbændən/",
+      "phonetic_uk": "/əˈbændən/",
+      "difficulty_level": "B1",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "放弃，抛弃；离弃（某地）；中止；陷入，沉湎于（某种情感）",
+          "example": "They had to abandon the car and continue on foot."
+        },
+        {
+          "pos": "n.",
+          "meaning": "放任，放纵，无拘无束",
+          "example": "She danced with wild abandon."
+        }
+      ],
+      "etymology": {
+        "origin": "源自中古英语，经由古法语 'abandoner'，最终源自拉丁语短语 'ad bandum'，意为“置于…控制之下”。",
+        "breakdown": "前缀 'a-'（表示方向或状态）+ 词根 'bandon'（来自古法语，意为“权力、控制”）。原意是“交出控制权”，引申为“放弃、抛弃”。"
+      },
+      "memory_aids": {
+        "mnemonic": "联想：一个（a）乐队（band）在（on）演出时被抛弃（abandon）了。",
+        "story": "想象一个乐队（band）正在舞台上（on）演出，突然所有观众都离开了，抛弃（abandon）了他们，乐队成员感到非常失落。"
+      },
+      "collocations": [
+        "abandon ship",
+        "abandon hope",
+        "abandon a plan/project"
+      ],
+      "sentences": [
+        {
+          "en": "The captain gave the order to abandon ship when the fire became uncontrollable.",
+          "zh": "当火势变得无法控制时，船长下令弃船。"
+        },
+        {
+          "en": "He abandoned his studies to pursue a career in music.",
+          "zh": "他放弃了学业去追求音乐事业。"
+        },
+        {
+          "en": "They danced with joyous abandon at the festival.",
+          "zh": "他们在节日里纵情欢乐地跳舞。"
+        }
+      ],
+      "synonyms": [
+        "desert",
+        "forsake",
+        "give up"
+      ],
+      "antonyms": [
+        "keep",
+        "retain",
+        "maintain"
+      ],
+      "confusion_alert": "易混淆词：abandon 与 abundant（丰富的）。abandon 意为“放弃”，而 abundant 意为“大量的、丰富的”。注意拼写和发音的区别：abandon /əˈbændən/， abundant /əˈbʌndənt/。"
+    },
+    {
+      "word": "ability",
+      "phonetic_us": "/əˈbɪləti/",
+      "phonetic_uk": "/əˈbɪləti/",
+      "difficulty_level": "A2",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "能力，才能；技能，本领",
+          "example": "She has the ability to speak four languages fluently."
+        },
+        {
+          "pos": "n.",
+          "meaning": "（法律或官方的）权力，资格",
+          "example": "The contract gives the company the ability to terminate the agreement under certain conditions."
+        }
+      ],
+      "etymology": {
+        "origin": "源自中古英语 abilite，源自古法语 habilité，源自拉丁语 habilitās（意为“适合性，能力”），由 habilis（意为“易处理的，灵巧的”）衍生而来。",
+        "breakdown": "词根 hab-（源自拉丁语 habēre，意为“拥有，持有”） + 后缀 -ility（构成名词，表示性质或状态）。"
+      },
+      "memory_aids": {
+        "mnemonic": "“A Bill（账单） I see” – 想象你有能力（ability）看懂并支付一份复杂的账单。",
+        "story": "想象一位名叫“Abby”的画家。她有一支神奇的画笔，这支笔给了她非凡的绘画“能力”（ability）。每当她说“A bill, I see”（我看到一份账单），画笔就会发光，让她画出任何她想要的东西来支付账单。这个故事将单词发音与“能力”的概念联系起来。"
+      },
+      "collocations": [
+        "natural ability",
+        "demonstrate/display ability",
+        "lack the ability"
+      ],
+      "sentences": [
+        {
+          "en": "His technical ability is unmatched in the company.",
+          "zh": "他的技术能力在公司里无人能及。"
+        },
+        {
+          "en": "The test measures your ability to solve problems under pressure.",
+          "zh": "这项测试衡量你在压力下解决问题的能力。"
+        },
+        {
+          "en": "She doubted her ability to complete the marathon.",
+          "zh": "她怀疑自己完成马拉松的能力。"
+        }
+      ],
+      "synonyms": [
+        "capability",
+        "capacity",
+        "competence"
+      ],
+      "antonyms": [
+        "inability",
+        "incapacity",
+        "incompetence"
+      ],
+      "confusion_alert": "易混淆词：ability vs. capability。两者都表示“能力”，但侧重点不同。Ability 通常指通过学习或实践获得的做某事的具体技能或智力（如 the ability to play the piano）。Capability 更常指完成某事的潜力、天赋或综合素质（如 the capability to lead a team），或指系统/机器的性能。在表示“有做某事的能力”时，两者常可互换，但 ability 更常用。"
+    },
+    {
+      "word": "accountable",
+      "phonetic_us": "/əˈkaʊntəbl/",
+      "phonetic_uk": "/əˈkaʊntəbl/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "responsible for your decisions or actions and expected to explain them when you are asked",
+          "example": "Politicians are ultimately accountable to the voters."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "required or expected to justify actions or decisions; responsible",
+          "example": "Managers must be held accountable for their decisions."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English (in the sense 'liable to be called to account'): from Old French *acontable*, from *acont* 'account', from *aconter* 'to account'.",
+        "breakdown": "The word comes from the Old French 'acontable', which is derived from 'acont' (account) and the suffix '-able', meaning 'capable of'. It literally means 'capable of being accounted for'."
+      },
+      "memory_aids": {
+        "mnemonic": "Account + able = 能解释的",
+        "story": "Imagine you have to give an 'account' (报告) of your actions to your boss. If you are 'able' (能够) to do so clearly and take responsibility, you are being 'accountable'."
+      },
+      "collocations": [
+        "hold someone accountable",
+        "be accountable for something",
+        "be accountable to someone",
+        "fully accountable",
+        "publicly accountable"
+      ],
+      "sentences": [
+        {
+          "en": "Each government department is accountable for its own budget.",
+          "zh": "每个政府部门都应对自己的预算负责。"
+        },
+        {
+          "en": "The company should be held accountable for the environmental damage it caused.",
+          "zh": "该公司应对其造成的环境破坏负责。"
+        },
+        {
+          "en": "As a team leader, you are accountable to the management for your team's performance.",
+          "zh": "作为团队领导，你要向管理层为团队的表现负责。"
+        }
+      ],
+      "synonyms": [
+        "responsible",
+        "answerable",
+        "liable",
+        "chargeable"
+      ],
+      "antonyms": [
+        "unaccountable",
+        "irresponsible",
+        "exempt"
+      ],
+      "confusion_alert": "不要与 'accountant'（会计师）混淆。'Accountable' 是形容词，意为'有责任的'；而 'accountant' 是名词，指职业。"
+    },
+    {
+      "word": "accumulate",
+      "phonetic_us": "/əˈkjuːmjəleɪt/",
+      "phonetic_uk": "/əˈkjuːmjəleɪt/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "积累，积聚；逐渐增加",
+          "example": "Over the years, he accumulated a vast collection of rare books."
+        },
+        {
+          "pos": "v.",
+          "meaning": "（数量）逐渐增多；（程度）逐渐加深",
+          "example": "Dust tends to accumulate in corners if not cleaned regularly."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 accumulare，由 ad-（朝向）和 cumulare（堆积）组成",
+        "breakdown": "ad-（加强）+ cumulare（堆积）→ 不断堆积 → 积累"
+      },
+      "memory_aids": {
+        "mnemonic": "阿Q没有累？还在积累！",
+        "story": "想象一个叫阿Q的人，他从不喊累，一直在默默积累知识和财富，最终成为了一位博学而富有的人。"
+      },
+      "collocations": [
+        "accumulate wealth",
+        "accumulate experience",
+        "accumulate evidence"
+      ],
+      "sentences": [
+        {
+          "en": "She has accumulated a lot of work experience over the past decade.",
+          "zh": "在过去的十年里，她积累了很多工作经验。"
+        },
+        {
+          "en": "If you don't clear the leaves, they will accumulate and block the drain.",
+          "zh": "如果你不清理树叶，它们会堆积起来并堵塞排水沟。"
+        },
+        {
+          "en": "The company aims to accumulate enough capital for expansion next year.",
+          "zh": "公司计划积累足够的资金，以便明年进行扩张。"
+        }
+      ],
+      "synonyms": [
+        "gather",
+        "collect",
+        "amass"
+      ],
+      "antonyms": [
+        "disperse",
+        "dissipate",
+        "scatter"
+      ],
+      "confusion_alert": "易与 'amass' 混淆，两者都表示积累，但 'amass' 通常指大量积累财富或资源，而 'accumulate' 更通用，可指逐渐积累任何事物。"
+    },
+    {
+      "word": "gemini",
+      "phonetic_us": "/ˈdʒemɪnaɪ/",
+      "phonetic_uk": "/ˈdʒemɪnaɪ/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "双子座（黄道十二宫之一）；双子座的人；双胞胎",
+          "example": "Gemini is the third sign of the zodiac, represented by twins."
+        },
+        {
+          "pos": "n.",
+          "meaning": "（Gemini）谷歌的AI模型名称",
+          "example": "Google's Gemini is a multimodal AI model designed to handle various types of data."
+        }
+      ],
+      "etymology": {
+        "origin": "拉丁语",
+        "breakdown": "源自拉丁语“gemini”，意为“双胞胎”，与“geminus”（成对的、双生的）相关。在占星学中，指黄道十二宫中的双子座，象征一对双胞胎。"
+      },
+      "memory_aids": {
+        "mnemonic": "Gemini 记成“姐妹俩”，双子就像姐妹花。",
+        "story": "想象一对双胞胎（Gemini）在星空下玩耍，他们性格多变，就像双子座的特点一样。"
+      },
+      "collocations": [
+        "born under Gemini",
+        "Gemini season",
+        "Gemini constellation"
+      ],
+      "sentences": [
+        {
+          "en": "As a Gemini, she is known for her adaptability and curiosity.",
+          "zh": "作为双子座，她以适应力强和好奇心旺盛而闻名。"
+        },
+        {
+          "en": "The Gemini AI model can process both text and images seamlessly.",
+          "zh": "Gemini AI模型能够无缝处理文本和图像。"
+        }
+      ],
+      "synonyms": [
+        "twins",
+        "dual",
+        "pair"
+      ],
+      "antonyms": [
+        "singular",
+        "individual"
+      ],
+      "confusion_alert": "注意：Gemini 作为专有名词时首字母大写（如星座、AI模型），普通名词“双胞胎”可小写。勿与“gem”（宝石）混淆。"
+    },
+    {
+      "word": "welcome",
+      "phonetic_us": "/ˈwelkəm/",
+      "phonetic_uk": "/ˈwelkəm/",
+      "difficulty_level": "A1",
+      "definitions": [
+        {
+          "pos": "interjection",
+          "meaning": "欢迎（用于表示对某人的到来感到高兴）",
+          "example": "Welcome to our home!"
+        },
+        {
+          "pos": "verb",
+          "meaning": "欢迎，欣然接受",
+          "example": "We welcome any suggestions you may have."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "受欢迎的，令人愉快的",
+          "example": "You are always a welcome guest here."
+        },
+        {
+          "pos": "noun",
+          "meaning": "欢迎，迎接",
+          "example": "They gave us a warm welcome when we arrived."
+        }
+      ],
+      "etymology": {
+        "origin": "古英语 wilcuma，由 wil-（意愿）和 cuma（来者）组成",
+        "breakdown": "wil-（意愿）+ cuma（来者）→ 表示“受欢迎的来者”"
+      },
+      "memory_aids": {
+        "mnemonic": "Well come → 来得好 → 欢迎",
+        "story": "想象一位朋友来到你家门口，你打开门说：“Well, come in!”（嗯，进来吧！），这就是欢迎的意思。"
+      },
+      "collocations": [
+        "warm welcome",
+        "welcome change",
+        "welcome opportunity",
+        "welcome guest"
+      ],
+      "sentences": [
+        {
+          "en": "You are welcome to join us for dinner.",
+          "zh": "欢迎你和我们一起吃晚饭。"
+        },
+        {
+          "en": "The new policy was welcomed by most employees.",
+          "zh": "大多数员工对新政策表示欢迎。"
+        },
+        {
+          "en": "She made us feel very welcome.",
+          "zh": "她让我们感到非常受欢迎。"
+        }
+      ],
+      "synonyms": [
+        "greet",
+        "receive",
+        "accept"
+      ],
+      "antonyms": [
+        "reject",
+        "refuse"
+      ],
+      "confusion_alert": "注意区分：1. “You're welcome.” 作为对“Thank you.”的回应，意为“不客气”。2. “Welcome”作动词时，过去式和过去分词为 welcomed，现在分词为 welcoming。"
+    },
+    {
+      "word": "scrutinize",
+      "phonetic_us": "/ˈskruːtənaɪz/",
+      "phonetic_uk": "/ˈskruːtənaɪz/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to examine or inspect closely and thoroughly",
+          "example": "The committee will scrutinize the proposal before making a decision."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to look at something very carefully in order to discover information",
+          "example": "She scrutinized the document for any errors."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English (in the sense 'decree judicially'): from Latin scrutinium 'a search' (from scrutari 'to search', originally 'to sort rubbish', from scruta 'rubbish') + -ize.",
+        "breakdown": "源自拉丁语 scrutari（搜索），最初指“分拣垃圾”，后引申为“仔细检查”。"
+      },
+      "memory_aids": {
+        "mnemonic": "“四顾探内仔”——四处观察，探看内部细节，仔仔细细。",
+        "story": "想象一位侦探在犯罪现场 scrutinize 每一个细节，连灰尘都不放过，就像在垃圾（scruta）中寻找线索一样。"
+      },
+      "collocations": [
+        "scrutinize carefully",
+        "scrutinize a document",
+        "scrutinize the details"
+      ],
+      "sentences": [
+        {
+          "en": "The lawyer scrutinized the contract line by line.",
+          "zh": "律师逐行仔细审查了合同。"
+        },
+        {
+          "en": "Every aspect of the plan was scrutinized by the board.",
+          "zh": "计划的每个方面都受到了董事会的仔细审查。"
+        }
+      ],
+      "synonyms": [
+        "examine",
+        "inspect",
+        "analyze",
+        "study"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "neglect"
+      ],
+      "confusion_alert": "易与 'scrutiny'（名词，仔细审查）混淆，注意词性区别。"
+    },
+    {
+      "word": "inevitable",
+      "phonetic_us": "/ɪnˈevɪtəbl/",
+      "phonetic_uk": "/ɪnˈevɪtəbl/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "certain to happen and impossible to avoid",
+          "example": "It was inevitable that the team would lose after their star player was injured."
+        },
+        {
+          "pos": "noun (the inevitable)",
+          "meaning": "something that is certain to happen",
+          "example": "We must accept the inevitable and move on."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English",
+        "breakdown": "From Latin 'inevitabilis', from 'in-' (not) + 'evitabilis' (avoidable), from 'evitare' (to avoid)."
+      },
+      "memory_aids": {
+        "mnemonic": "In-EVIT-able → 无法（in）逃避（evit）的（able）",
+        "story": "Imagine you're in a car heading toward a wall. No matter how you turn, the crash is INEVITABLE—you can't avoid it."
+      },
+      "collocations": [
+        "inevitable consequence",
+        "inevitable outcome",
+        "seem inevitable"
+      ],
+      "sentences": [
+        {
+          "en": "Given the current economic trends, a recession seems inevitable.",
+          "zh": "鉴于当前的经济趋势，经济衰退似乎不可避免。"
+        },
+        {
+          "en": "She accepted the inevitable with grace and dignity.",
+          "zh": "她以优雅和尊严接受了这不可避免的事。"
+        }
+      ],
+      "synonyms": [
+        "unavoidable",
+        "inescapable",
+        "certain"
+      ],
+      "antonyms": [
+        "avoidable",
+        "uncertain",
+        "preventable"
+      ],
+      "confusion_alert": "不要与 'inevitable'（不可避免的）和 'inevitability'（必然性，名词）混淆。"
+    },
+    {
+      "word": "fluctuate",
+      "phonetic_us": "/ˈflʌktʃueɪt/",
+      "phonetic_uk": "/ˈflʌktʃueɪt/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to change frequently in size, amount, quality, etc., especially from one extreme to another",
+          "example": "Oil prices have fluctuated wildly in recent months."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to rise and fall irregularly in number or amount",
+          "example": "The temperature fluctuates between 10 and 20 degrees Celsius."
+        }
+      ],
+      "etymology": {
+        "origin": "Latin",
+        "breakdown": "From Latin 'fluctuatus', past participle of 'fluctuare' meaning 'to undulate', which is derived from 'fluctus' meaning 'a wave'."
+      },
+      "memory_aids": {
+        "mnemonic": "Fluctuate sounds like 'flow' + 'act' + 'u' + 'ate' – imagine water flowing and acting up and down as you eat.",
+        "story": "Imagine a boat on the ocean, fluctuating with the waves. The captain fluctuates between calm and panic as the sea fluctuates in intensity."
+      },
+      "collocations": [
+        "fluctuate wildly",
+        "fluctuate between",
+        "fluctuate around"
+      ],
+      "sentences": [
+        {
+          "en": "The stock market tends to fluctuate based on economic news.",
+          "zh": "股市往往会根据经济新闻而波动。"
+        },
+        {
+          "en": "Her mood can fluctuate from cheerful to gloomy in a matter of minutes.",
+          "zh": "她的情绪可能在几分钟内从愉快波动到忧郁。"
+        },
+        {
+          "en": "The demand for the product fluctuates seasonally.",
+          "zh": "该产品的需求随季节波动。"
+        }
+      ],
+      "synonyms": [
+        "vary",
+        "oscillate",
+        "change",
+        "shift"
+      ],
+      "antonyms": [
+        "stabilize",
+        "steady",
+        "remain constant"
+      ],
+      "confusion_alert": "Do not confuse 'fluctuate' with 'fluent'. 'Fluctuate' means to change irregularly, while 'fluent' refers to the ability to speak a language smoothly."
+    },
+    {
+      "word": "unprecedented",
+      "phonetic_us": "/ʌnˈpresɪdentɪd/",
+      "phonetic_uk": "/ʌnˈpresɪdentɪd/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "前所未有的，史无前例的；没有先例的",
+          "example": "The pandemic caused an unprecedented global crisis."
+        }
+      ],
+      "etymology": {
+        "origin": "源自 un-（否定前缀）+ precedent（先例）+ -ed（形容词后缀）",
+        "breakdown": "un-（无，没有）+ precedent（先例，前例）+ -ed（形容词后缀），字面意思为“没有先例的”"
+      },
+      "memory_aids": {
+        "mnemonic": "un（无）+ precedent（先例）+ ed → 没有先例的 → 前所未有的",
+        "story": "想象一个历史学家翻开一本空白的史书，惊呼：“这真是 unprecedented（史无前例）的事件，因为连一个先例（precedent）都找不到！”"
+      },
+      "collocations": [
+        "unprecedented growth",
+        "unprecedented level",
+        "unprecedented success"
+      ],
+      "sentences": [
+        {
+          "en": "The company achieved unprecedented profits this year.",
+          "zh": "该公司今年取得了前所未有的利润。"
+        },
+        {
+          "en": "The storm caused unprecedented damage to the coastal area.",
+          "zh": "这场风暴对沿海地区造成了史无前例的破坏。"
+        }
+      ],
+      "synonyms": [
+        "unparalleled",
+        "unmatched",
+        "extraordinary"
+      ],
+      "antonyms": [
+        "commonplace",
+        "ordinary",
+        "usual"
+      ],
+      "confusion_alert": "注意不要与 unrelated（无关的）或 unpredicted（未预测到的）混淆。unprecedented 强调“没有先例”，而非“无关”或“未预料”。"
+    },
+    {
+      "word": "deduce",
+      "phonetic_us": "/dɪˈduːs/",
+      "phonetic_uk": "/dɪˈdjuːs/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to reach a conclusion or decision by reasoning; to infer from evidence",
+          "example": "From the clues left at the scene, the detective was able to deduce that the suspect was left-handed."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to trace the course or derivation of something",
+          "example": "We can deduce the origins of the word from its Latin root."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English (in the sense 'lead or convey'): from Latin deducere, from de- 'down' + ducere 'lead'.",
+        "breakdown": "The word comes from Latin 'deducere', which literally means 'to lead down'. The prefix 'de-' means 'down' or 'away', and 'ducere' means 'to lead'. Over time, its meaning evolved from physically leading something down to logically leading to a conclusion."
+      },
+      "memory_aids": {
+        "mnemonic": "Deduce = De (down) + duce (lead). Think: 'lead down to a conclusion'.",
+        "story": "Imagine a detective (like Sherlock Holmes) following clues that lead him DOWN a logical path to solve a mystery. He DEDUCES the answer by leading his thoughts from evidence to conclusion."
+      },
+      "collocations": [
+        "deduce from evidence",
+        "logically deduce",
+        "deduce a conclusion"
+      ],
+      "sentences": [
+        {
+          "en": "From the footprints and broken window, I deduced that someone had broken into the house.",
+          "zh": "从脚印和破碎的窗户，我推断出有人闯入了房子。"
+        },
+        {
+          "en": "Scientists can deduce a lot about ancient climates by studying ice cores.",
+          "zh": "科学家通过研究冰芯可以推断出很多关于古代气候的信息。"
+        },
+        {
+          "en": "If A = B and B = C, then we can deduce that A = C.",
+          "zh": "如果A等于B，且B等于C，那么我们可以推断出A等于C。"
+        }
+      ],
+      "synonyms": [
+        "infer",
+        "conclude",
+        "reason",
+        "gather"
+      ],
+      "antonyms": [
+        "guess",
+        "assume",
+        "suppose (without evidence)"
+      ],
+      "confusion_alert": "不要与 'deduct'（扣除，减去）混淆。'Deduce' 是通过推理得出结论，而 'deduct' 是从总量中减去一部分（如扣税）。"
+    },
+    {
+      "word": "vulnerable",
+      "phonetic_us": "/ˈvʌlnərəbl/",
+      "phonetic_uk": "/ˈvʌlnərəbl/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "易受伤害的；脆弱的；易受攻击的",
+          "example": "Children are the most vulnerable members of society."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "易受批评或攻击的",
+          "example": "His argument left him vulnerable to criticism."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "易受疾病或伤害影响的",
+          "example": "The plants are vulnerable to frost."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 vulnerabilis，来自 vulnerare（伤害）",
+        "breakdown": "vulnus（伤口）+ -abilis（能够...的）→ 能够受伤的"
+      },
+      "memory_aids": {
+        "mnemonic": "VUL-ner-able → 想象一个“VUL”（洞）让你变得脆弱",
+        "story": "想象一个穿着盔甲的骑士，但盔甲上有个“VUL”（漏洞），让他变得 vulnerable（易受攻击）"
+      },
+      "collocations": [
+        "highly vulnerable",
+        "particularly vulnerable",
+        "vulnerable to attack",
+        "vulnerable position"
+      ],
+      "sentences": [
+        {
+          "en": "The coastal city is vulnerable to hurricanes.",
+          "zh": "这座沿海城市易受飓风侵袭。"
+        },
+        {
+          "en": "She felt vulnerable sharing her personal story.",
+          "zh": "分享个人故事让她感到脆弱。"
+        },
+        {
+          "en": "The system is vulnerable to cyber attacks.",
+          "zh": "这个系统容易受到网络攻击。"
+        }
+      ],
+      "synonyms": [
+        "susceptible",
+        "exposed",
+        "defenseless",
+        "at risk"
+      ],
+      "antonyms": [
+        "invulnerable",
+        "protected",
+        "resilient",
+        "secure"
+      ],
+      "confusion_alert": "注意与 invulnerable（刀枪不入的）区分，两者为反义词关系。发音时注意重音在第一个音节。"
+    },
+    {
+      "word": "empirical",
+      "phonetic_us": "/ɪmˈpɪrɪkl/",
+      "phonetic_uk": "/ɪmˈpɪrɪkl/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic",
+          "example": "They collected empirical data to support their hypothesis."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "relying on or derived from observation or experiment",
+          "example": "The study provided empirical evidence for the effectiveness of the treatment."
+        }
+      ],
+      "etymology": {
+        "origin": "Late 16th century: from medieval Latin empiricus, from Greek empeirikos, from empeiria 'experience'.",
+        "breakdown": "Derived from Greek 'empeiria' meaning 'experience', through Latin 'empiricus'."
+      },
+      "memory_aids": {
+        "mnemonic": "EMPirical = Experience + Proof",
+        "story": "Imagine a scientist named Em who always insists on 'real proof' (Empirical) from experiments rather than just theories."
+      },
+      "collocations": [
+        "empirical evidence",
+        "empirical research",
+        "empirical data",
+        "empirical study"
+      ],
+      "sentences": [
+        {
+          "en": "The theory needs to be tested with empirical evidence.",
+          "zh": "这一理论需要通过实证证据来检验。"
+        },
+        {
+          "en": "Her conclusions were based on empirical observations rather than speculation.",
+          "zh": "她的结论基于实证观察而非推测。"
+        }
+      ],
+      "synonyms": [
+        "experimental",
+        "observational",
+        "practical",
+        "fact-based"
+      ],
+      "antonyms": [
+        "theoretical",
+        "speculative",
+        "hypothetical"
+      ],
+      "confusion_alert": "不要与 'imperial'（帝国的）混淆。注意拼写：empirical（实证的） vs imperial（帝国的）。"
+    },
+    {
+      "word": "consensus",
+      "phonetic_us": "/kənˈsensəs/",
+      "phonetic_uk": "/kənˈsensəs/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "一致意见；共识",
+          "example": "The committee reached a consensus on the new policy after hours of discussion."
+        },
+        {
+          "pos": "n.",
+          "meaning": "普遍看法",
+          "example": "There is a growing consensus that climate change is a serious threat."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 consensus，意为“同意、一致”，由 com-（一起）和 sentire（感觉）构成。",
+        "breakdown": "con-（一起）+ sensus（感觉）→ 共同的感觉 → 共识"
+      },
+      "memory_aids": {
+        "mnemonic": "con（共同）+ sens（感觉）+ us（我们）→ 我们共同的感觉 → 共识",
+        "story": "想象一个团队会议中，所有人（con-）都举起手表示“感觉（sens）”一致，最终形成了共识（consensus）。"
+      },
+      "collocations": [
+        "reach a consensus",
+        "broad consensus",
+        "general consensus"
+      ],
+      "sentences": [
+        {
+          "en": "After much debate, the team finally achieved a consensus on the project timeline.",
+          "zh": "经过多次辩论，团队最终就项目时间表达成了一致意见。"
+        },
+        {
+          "en": "The scientific consensus is that human activity contributes significantly to global warming.",
+          "zh": "科学界的普遍看法是，人类活动对全球变暖有显著影响。"
+        }
+      ],
+      "synonyms": [
+        "agreement",
+        "accord",
+        "unanimity"
+      ],
+      "antonyms": [
+        "disagreement",
+        "conflict",
+        "dissension"
+      ],
+      "confusion_alert": "注意与 census（人口普查）区分，两者拼写和发音相似但含义完全不同。"
+    },
+    {
+      "word": "utilize",
+      "phonetic_us": "/ˈjuːtəlaɪz/",
+      "phonetic_uk": "/ˈjuːtɪlaɪz/",
+      "difficulty_level": "B2 (CEFR)",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to use something for a particular purpose, especially in an effective or practical way",
+          "example": "We must utilize all available resources to solve this problem."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to make practical and effective use of something",
+          "example": "The company utilizes solar energy to power its factories."
+        }
+      ],
+      "etymology": {
+        "origin": "From French utiliser, from Italian utilizzare, from utile (useful), from Latin ūtilis.",
+        "breakdown": "Derived from Latin 'ūtilis' (useful) + the suffix '-ize', meaning 'to make' or 'to use'."
+      },
+      "memory_aids": {
+        "mnemonic": "You-til-ize: You use it until it's fully utilized.",
+        "story": "Imagine a chef who utilizes every part of a vegetable—peels for stock, stems for garnish—making full use of each ingredient."
+      },
+      "collocations": [
+        "utilize resources",
+        "utilize technology",
+        "fully utilize"
+      ],
+      "sentences": [
+        {
+          "en": "Farmers utilize advanced irrigation systems to conserve water.",
+          "zh": "农民利用先进的灌溉系统来节约用水。"
+        },
+        {
+          "en": "The app utilizes AI to provide personalized recommendations.",
+          "zh": "该应用程序利用人工智能提供个性化推荐。"
+        },
+        {
+          "en": "We should utilize this opportunity to expand our market.",
+          "zh": "我们应该利用这个机会扩大我们的市场。"
+        }
+      ],
+      "synonyms": [
+        "use",
+        "employ",
+        "apply",
+        "harness"
+      ],
+      "antonyms": [
+        "waste",
+        "misuse",
+        "neglect"
+      ],
+      "confusion_alert": "Often confused with 'use'. 'Utilize' implies making practical or effective use of something, while 'use' is more general. In many contexts, 'use' is simpler and preferred."
+    },
+    {
+      "word": "adhere",
+      "phonetic_us": "/ədˈhɪr/",
+      "phonetic_uk": "/ədˈhɪə(r)/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to stick firmly to something",
+          "example": "The glue must be strong enough for the paper to adhere to the surface."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to follow or obey a rule, plan, or belief",
+          "example": "All members must adhere to the club's code of conduct."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin adhaerēre, from ad- 'to' + haerēre 'to stick'.",
+        "breakdown": "The prefix 'ad-' means 'to' or 'toward', and 'haerēre' means 'to stick' or 'cling'. Thus, 'adhere' literally means 'to stick to'."
+      },
+      "memory_aids": {
+        "mnemonic": "Ad-here: Think 'add here' with glue to stick something.",
+        "story": "Imagine adding glue 'here' to make two objects stick together firmly, just like adhering to rules means sticking to them."
+      },
+      "collocations": [
+        "adhere strictly",
+        "adhere closely",
+        "adhere to principles"
+      ],
+      "sentences": [
+        {
+          "en": "The paint did not adhere well to the metal surface.",
+          "zh": "油漆没有很好地附着在金属表面上。"
+        },
+        {
+          "en": "We must adhere to the safety guidelines at all times.",
+          "zh": "我们必须始终遵守安全准则。"
+        }
+      ],
+      "synonyms": [
+        "stick",
+        "cling",
+        "comply",
+        "follow"
+      ],
+      "antonyms": [
+        "detach",
+        "separate",
+        "disobey"
+      ],
+      "confusion_alert": "Do not confuse 'adhere' with 'cohere', which means to stick together internally (e.g., ideas cohere in an argument)."
+    },
+    {
+      "word": "speculate",
+      "phonetic_us": "/ˈspekjəleɪt/",
+      "phonetic_uk": "/ˈspekjəleɪt/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to form opinions or ideas without having definite proof or evidence; to guess",
+          "example": "We can only speculate about what might happen next."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to buy goods, property, shares, etc., hoping to make a profit when you sell them, but with the risk of losing money",
+          "example": "He made his money by speculating on the stock market."
+        }
+      ],
+      "etymology": {
+        "origin": "Latin",
+        "breakdown": "From Latin 'speculatus', past participle of 'speculari' meaning 'to spy out, examine', from 'specula' ('watchtower'), from 'specere' ('to look at')."
+      },
+      "memory_aids": {
+        "mnemonic": "Speculate = Spec (看) + ulate (动词后缀) → 用眼睛看、观察并猜测",
+        "story": "想象一个侦探在案发现场，没有确凿证据，只能通过观察（spec-）来推测（speculate）凶手是谁。"
+      },
+      "collocations": [
+        "speculate about/on",
+        "speculate that",
+        "speculate in (markets/stocks)"
+      ],
+      "sentences": [
+        {
+          "en": "Journalists are speculating about the reasons for his sudden resignation.",
+          "zh": "记者们正在猜测他突然辞职的原因。"
+        },
+        {
+          "en": "It is useless to speculate on what might have been.",
+          "zh": "猜测原本可能会发生什么是没有用的。"
+        },
+        {
+          "en": "Many people lost money when they speculated in the property market.",
+          "zh": "许多人在房地产市场投机时亏了钱。"
+        }
+      ],
+      "synonyms": [
+        "conjecture",
+        "theorize",
+        "hypothesize",
+        "guess",
+        "surmise"
+      ],
+      "antonyms": [
+        "know",
+        "prove",
+        "confirm"
+      ],
+      "confusion_alert": "注意与 'contemplate'（深思）区分。'Speculate' 强调基于不完整信息的猜测或金融投机，而 'contemplate' 指仔细思考或考虑。"
+    },
+    {
+      "word": "pervasive",
+      "phonetic_us": "/pərˈveɪsɪv/",
+      "phonetic_uk": "/pəˈveɪsɪv/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "existing or spreading throughout every part of something; widespread",
+          "example": "The pervasive influence of social media has changed how we communicate."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "having the quality of permeating or spreading through",
+          "example": "A pervasive sense of anxiety hung over the city before the election."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin 'pervas-' (past participle stem of 'pervadere'), meaning 'to go through, spread through'.",
+        "breakdown": "per- (through) + vadere (to go) + -ive (adjective suffix)"
+      },
+      "memory_aids": {
+        "mnemonic": "PERVASIVE = PERmeates EVERYthing",
+        "story": "Imagine a strong perfume that PERmeates the entire room, spreading to EVERY corner—it's pervasive."
+      },
+      "collocations": [
+        "pervasive influence",
+        "pervasive problem",
+        "pervasive feeling"
+      ],
+      "sentences": [
+        {
+          "en": "Corruption is a pervasive issue in some developing countries.",
+          "zh": "腐败是一些发展中国家普遍存在的问题。"
+        },
+        {
+          "en": "The pervasive smell of coffee filled the office every morning.",
+          "zh": "每天早上，办公室里都弥漫着浓郁的咖啡香气。"
+        }
+      ],
+      "synonyms": [
+        "widespread",
+        "ubiquitous",
+        "prevalent"
+      ],
+      "antonyms": [
+        "limited",
+        "restricted",
+        "scarce"
+      ],
+      "confusion_alert": "不要与 'persuasive'（有说服力的）混淆。'Pervasive' 强调广泛存在，而 'persuasive' 强调说服力。"
+    },
+    {
+      "word": "detrimental",
+      "phonetic_us": "/ˌdetrɪˈmentl/",
+      "phonetic_uk": "/ˌdetrɪˈmentl/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "有害的；不利的",
+          "example": "Smoking is detrimental to your health."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 detrimentum，意为“损害、伤害”，由 deterere（磨损、消耗）演变而来。",
+        "breakdown": "detriment（损害）+ -al（形容词后缀）"
+      },
+      "memory_aids": {
+        "mnemonic": "detri（谐音“得踹”）+ mental（精神的）→ 精神上被踹了一脚 → 有害的",
+        "story": "想象一个人因为有害的习惯（如熬夜），精神上像被踹了一脚，导致状态变差，从而记住 detrimental 表示“有害的”。"
+      },
+      "collocations": [
+        "detrimental effect",
+        "detrimental impact",
+        "detrimental to"
+      ],
+      "sentences": [
+        {
+          "en": "Lack of sleep can be detrimental to your cognitive function.",
+          "zh": "睡眠不足可能对你的认知功能有害。"
+        },
+        {
+          "en": "The new policy had a detrimental effect on small businesses.",
+          "zh": "新政策对小企业产生了不利影响。"
+        }
+      ],
+      "synonyms": [
+        "harmful",
+        "damaging",
+        "adverse"
+      ],
+      "antonyms": [
+        "beneficial",
+        "advantageous"
+      ],
+      "confusion_alert": "注意与 determinant（决定因素）拼写相似但含义不同。"
+    },
+    {
+      "word": "align",
+      "phonetic_us": "/əˈlaɪn/",
+      "phonetic_uk": "/əˈlaɪn/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to arrange things so that they form a line or are in proper position",
+          "example": "The books on the shelf should be aligned neatly."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to bring into agreement or cooperation with a particular group, idea, or system",
+          "example": "The company's goals align with environmental sustainability."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to adjust parts of a mechanism so that they fit together correctly",
+          "example": "The mechanic aligned the wheels of the car."
+        }
+      ],
+      "etymology": {
+        "origin": "Late 17th century from French aligner, from à ligne 'into line'.",
+        "breakdown": "From French 'aligner', which combines 'à' (to) and 'ligne' (line), literally meaning 'to bring into line'."
+      },
+      "memory_aids": {
+        "mnemonic": "A LINE - Think of 'a line' to remember 'align' means to put in a straight line.",
+        "story": "Imagine a group of soldiers standing in a perfectly straight line - they are aligned. Or think of aligning your personal goals with your career path."
+      },
+      "collocations": [
+        "align with",
+        "align properly",
+        "align vertically/horizontally",
+        "align interests"
+      ],
+      "sentences": [
+        {
+          "en": "Make sure to align the text to the left margin.",
+          "zh": "确保将文本左对齐。"
+        },
+        {
+          "en": "Our values align perfectly with the company's mission.",
+          "zh": "我们的价值观与公司的使命完全一致。"
+        },
+        {
+          "en": "The planets will align in a rare celestial event next month.",
+          "zh": "下个月行星将排成一条直线，这是一种罕见的天文现象。"
+        }
+      ],
+      "synonyms": [
+        "line up",
+        "arrange",
+        "adjust",
+        "coordinate",
+        "harmonize"
+      ],
+      "antonyms": [
+        "disarrange",
+        "disorganize",
+        "misalign",
+        "disconnect"
+      ],
+      "confusion_alert": "不要与 'assign'（分配）或 'ally'（结盟）混淆。'Align' 强调排列成直线或使一致，而 'assign' 是分配任务，'ally' 是形成联盟。"
+    },
+    {
+      "word": "harness",
+      "phonetic_us": "/ˈhɑːrnɪs/",
+      "phonetic_uk": "/ˈhɑːnɪs/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "马具；挽具；安全带；保护带",
+          "example": "The horse was fitted with a new leather harness."
+        },
+        {
+          "pos": "v.",
+          "meaning": "给（马等）套上挽具；利用（自然力等）产生能量",
+          "example": "We can harness the power of the wind to generate electricity."
+        },
+        {
+          "pos": "v.",
+          "meaning": "控制，利用（情感、资源等）",
+          "example": "She learned to harness her anger and use it productively."
+        }
+      ],
+      "etymology": {
+        "origin": "中古英语 harneis，源自古法语 harnois，可能源于古诺尔斯语。",
+        "breakdown": "最初指“军事装备”，后引申为“马具”，再发展为“控制、利用”的动词含义。"
+      },
+      "memory_aids": {
+        "mnemonic": "Har-ness 联想“哈！能控制”——“哈！能控制风能发电！”",
+        "story": "想象一位骑士（harness谐音“哈尼斯”）给马套上马具（n.），然后利用（v.）马的力量去战斗，引申为“利用自然力量”。"
+      },
+      "collocations": [
+        "safety harness",
+        "harness the power",
+        "harness energy"
+      ],
+      "sentences": [
+        {
+          "en": "The climbers wore safety harnesses to prevent falls.",
+          "zh": "登山者佩戴了安全带来防止坠落。"
+        },
+        {
+          "en": "Scientists are finding new ways to harness solar energy.",
+          "zh": "科学家正在寻找利用太阳能的新方法。"
+        },
+        {
+          "en": "It's important to harness your creativity in solving problems.",
+          "zh": "在解决问题时，发挥创造力很重要。"
+        }
+      ],
+      "synonyms": [
+        "utilize",
+        "control",
+        "exploit"
+      ],
+      "antonyms": [
+        "waste",
+        "release"
+      ],
+      "confusion_alert": "易与 hardness（硬度）混淆。注意 harness 中间是“n”，与“控制、利用”相关；hardness 中间是“d”，与“坚硬”相关。"
+    },
+    {
+      "word": "confine",
+      "phonetic_us": "/kənˈfaɪn/",
+      "phonetic_uk": "/kənˈfaɪn/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to keep someone or something within certain limits; to restrict",
+          "example": "Please confine your comments to the topic of the meeting."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to keep a person or animal in a restricted space",
+          "example": "The dog was confined to the backyard."
+        },
+        {
+          "pos": "noun (plural)",
+          "meaning": "the borders or boundaries of a space",
+          "example": "He never ventured beyond the confines of his hometown."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English",
+        "breakdown": "From Old French 'confiner', from Latin 'confinare' (to border upon), from 'con-' (together) + 'finis' (boundary, limit)."
+      },
+      "memory_aids": {
+        "mnemonic": "CON-FINE: Think of being confined in a FINE (good) but limited space.",
+        "story": "Imagine a king who confines his finest treasures to a secret room (fine + confine), keeping them within strict limits for protection."
+      },
+      "collocations": [
+        "confine to",
+        "confine within",
+        "strictly confine",
+        "be confined by"
+      ],
+      "sentences": [
+        {
+          "en": "The outbreak was confined to the northern region of the country.",
+          "zh": "疫情被限制在该国的北部地区。"
+        },
+        {
+          "en": "She felt confined by the traditional expectations of her family.",
+          "zh": "她感到被家庭的传统期望所束缚。"
+        },
+        {
+          "en": "The study confines its analysis to data from the last decade.",
+          "zh": "这项研究将其分析局限于过去十年的数据。"
+        }
+      ],
+      "synonyms": [
+        "restrict",
+        "limit",
+        "enclose",
+        "constrain"
+      ],
+      "antonyms": [
+        "release",
+        "free",
+        "liberate",
+        "expand"
+      ],
+      "confusion_alert": "不要与 'define'（定义）或 'refine'（精炼）混淆。'Confine' 强调限制或约束，而后两者分别与解释说明和改善优化相关。"
+    },
+    {
+      "word": "legitimate",
+      "phonetic_us": "/lɪˈdʒɪtəmət/",
+      "phonetic_uk": "/lɪˈdʒɪtɪmət/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "合法的；正当的；合理的",
+          "example": "The government has a legitimate right to collect taxes."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "正统的；真实的",
+          "example": "He is the legitimate heir to the throne."
+        },
+        {
+          "pos": "verb",
+          "meaning": "使合法化；证明…有理",
+          "example": "The new law legitimized same-sex marriage."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 legitimus，意为“合法的”，来自 lex（法律）。",
+        "breakdown": "legitimus（合法的） → 古法语 legitime → 中古英语 legitimate"
+      },
+      "memory_aids": {
+        "mnemonic": "LEGitimate → LEG（腿）+ IT（它）→ 合法的腿？不，记住 LEG 与法律（legal）相关。",
+        "story": "想象一个国王宣布：“只有合法的（legitimate）继承人才能坐上王位，其他人即使有‘腿’（leg）也不行！”"
+      },
+      "collocations": [
+        "legitimate reason",
+        "legitimate concern",
+        "legitimate authority"
+      ],
+      "sentences": [
+        {
+          "en": "She had a legitimate excuse for being late.",
+          "zh": "她迟到有一个合理的借口。"
+        },
+        {
+          "en": "The court ruled that the contract was legitimate.",
+          "zh": "法院裁定该合同是合法的。"
+        },
+        {
+          "en": "Many people question the legitimacy of his claims.",
+          "zh": "许多人质疑他声称的合法性。"
+        }
+      ],
+      "synonyms": [
+        "legal",
+        "valid",
+        "justified"
+      ],
+      "antonyms": [
+        "illegitimate",
+        "illegal",
+        "invalid"
+      ],
+      "confusion_alert": "注意与 'legal' 的区别：'legal' 强调符合法律条文，而 'legitimate' 更广泛，可指合理、正当或符合传统。"
+    },
+    {
+      "word": "allocate",
+      "phonetic_us": "/ˈæləkeɪt/",
+      "phonetic_uk": "/ˈæləkeɪt/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to give something officially to someone or something for a particular purpose",
+          "example": "The government will allocate funds for the new hospital."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to decide that something should be used for a particular purpose",
+          "example": "We need to allocate more time to this project."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin allocatus, past participle of allocare, from ad- (to) + locare (to place).",
+        "breakdown": "The word combines 'ad-' meaning 'to' and 'locare' meaning 'to place', literally meaning 'to place to' or 'assign to a place'."
+      },
+      "memory_aids": {
+        "mnemonic": "Allocate = All + locate (定位) → 把所有东西定位到该去的地方 → 分配",
+        "story": "Imagine you're the manager of a warehouse (仓库经理). You need to ALLOCATE all the boxes to different shelves - you give each box its specific place. This helps remember that allocate means to assign or distribute resources to specific purposes."
+      },
+      "collocations": [
+        "allocate resources",
+        "allocate funds",
+        "allocate time",
+        "allocate space"
+      ],
+      "sentences": [
+        {
+          "en": "The committee will allocate the available budget among the various departments.",
+          "zh": "委员会将在各个部门之间分配可用预算。"
+        },
+        {
+          "en": "We need to allocate more staff to the customer service department during peak hours.",
+          "zh": "我们需要在高峰时段为客服部门分配更多员工。"
+        },
+        {
+          "en": "The teacher allocated 15 minutes for the group discussion.",
+          "zh": "老师为小组讨论分配了15分钟时间。"
+        }
+      ],
+      "synonyms": [
+        "assign",
+        "distribute",
+        "allot",
+        "apportion"
+      ],
+      "antonyms": [
+        "withhold",
+        "keep",
+        "retain"
+      ],
+      "confusion_alert": "不要与 'locate'（定位、找到）混淆。'Allocate' 强调分配资源，而 'locate' 强调找到位置或地点。"
+    },
+    {
+      "word": "suppress",
+      "phonetic_us": "/səˈpres/",
+      "phonetic_uk": "/səˈpres/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to prevent something from being expressed, known, or continued",
+          "example": "The government tried to suppress the protest by force."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to stop something from happening or developing",
+          "example": "She suppressed a yawn during the boring lecture."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to prevent information from being published or made public",
+          "example": "The newspaper was accused of suppressing important facts."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English",
+        "breakdown": "From Latin 'suppress-', meaning 'pressed down', from the verb 'supprimere', from 'sub-' (under) + 'premere' (to press)."
+      },
+      "memory_aids": {
+        "mnemonic": "Sup-press: 想象有人用压力（press）从上（sup-）往下压制。",
+        "story": "想象一个场景：在新闻发布会上，记者们试图揭露真相，但有人从上方（sup-）施加压力（press），强行压制（suppress）了消息的传播。"
+      },
+      "collocations": [
+        "suppress a rebellion",
+        "suppress emotions",
+        "suppress evidence"
+      ],
+      "sentences": [
+        {
+          "en": "He could hardly suppress his anger when he heard the unfair decision.",
+          "zh": "听到这个不公平的决定时，他几乎无法抑制自己的愤怒。"
+        },
+        {
+          "en": "The medication helps to suppress the symptoms of the allergy.",
+          "zh": "这种药物有助于抑制过敏症状。"
+        },
+        {
+          "en": "They attempted to suppress the publication of the controversial book.",
+          "zh": "他们试图阻止这本有争议的书籍出版。"
+        }
+      ],
+      "synonyms": [
+        "restrain",
+        "inhibit",
+        "repress"
+      ],
+      "antonyms": [
+        "express",
+        "release",
+        "encourage"
+      ],
+      "confusion_alert": "易与 'oppress' 混淆：'suppress' 强调压制或抑制某事（如情感、信息），而 'oppress' 指以残酷或不公平的方式压迫人民或群体。"
+    },
+    {
+      "word": "spontaneous",
+      "phonetic_us": "/spɑːnˈteɪniəs/",
+      "phonetic_uk": "/spɒnˈteɪniəs/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "自发的；自然的；不由自主的",
+          "example": "The audience burst into spontaneous applause at the end of the performance."
+        },
+        {
+          "pos": "adj.",
+          "meaning": "（行为）自然率真的，不矫揉造作的",
+          "example": "She has a warm and spontaneous personality that puts everyone at ease."
+        },
+        {
+          "pos": "adj.",
+          "meaning": "（过程或事件）自然发生的，非人为引发的",
+          "example": "Spontaneous combustion is a rare phenomenon where a material ignites without an external heat source."
+        }
+      ],
+      "etymology": {
+        "origin": "源自晚期拉丁语 spontaneus，意为“自愿的”，源自拉丁语 sponte（自愿地）。",
+        "breakdown": "拉丁语 sponte（自愿地） + -aneus（形容词后缀） → 英语 spontaneous"
+      },
+      "memory_aids": {
+        "mnemonic": "“Spon-” 联想 “spoon（勺子）”，想象一个勺子突然自己动起来，很“自发”。",
+        "story": "想象一个派对（party）上，大家原本很拘谨，突然有人（spon-像spoon）跳起舞来，其他人也自发地（spontaneous）加入，气氛变得自然又欢乐。"
+      },
+      "collocations": [
+        "spontaneous reaction",
+        "spontaneous decision",
+        "spontaneous applause",
+        "spontaneous combustion"
+      ],
+      "sentences": [
+        {
+          "en": "Their trip to the beach was a spontaneous decision made over breakfast.",
+          "zh": "他们去海滩的旅行是吃早餐时一时兴起决定的。"
+        },
+        {
+          "en": "Children are often more spontaneous and creative in their expressions than adults.",
+          "zh": "孩子在表达上通常比成人更率真、更有创造力。"
+        },
+        {
+          "en": "The chemical reaction was spontaneous and required no additional energy input.",
+          "zh": "该化学反应是自发的，不需要额外输入能量。"
+        }
+      ],
+      "synonyms": [
+        "impulsive",
+        "unplanned",
+        "natural",
+        "unpremeditated"
+      ],
+      "antonyms": [
+        "planned",
+        "calculated",
+        "forced",
+        "premeditated"
+      ],
+      "confusion_alert": "注意与 simultaneous（同时发生的）区分。Spontaneous 强调“自发/自然”，simultaneous 强调“同时”。"
+    },
+    {
+      "word": "ambiguous",
+      "phonetic_us": "/æmˈbɪɡjuəs/",
+      "phonetic_uk": "/æmˈbɪɡjuəs/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "having more than one possible meaning; not clear or definite",
+          "example": "The instructions were ambiguous and open to interpretation."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "unclear or uncertain in nature",
+          "example": "His role in the project was ambiguous, making it hard to assign responsibility."
+        }
+      ],
+      "etymology": {
+        "origin": "Latin",
+        "breakdown": "From Latin 'ambiguus' (doubtful, uncertain), derived from 'ambigere' (to wander around, hesitate), which combines 'ambi-' (both, around) and 'agere' (to drive, lead)."
+      },
+      "memory_aids": {
+        "mnemonic": "Am-bi-guous sounds like 'am big you us' – imagine a situation where someone says 'I am big, you are us' – it's confusing and unclear!",
+        "story": "Think of a road sign at a fork in the road that points in two directions at once. You're not sure which way to go because the sign is ambiguous. The 'ambi-' prefix means 'both,' hinting at dual meanings."
+      },
+      "collocations": [
+        "ambiguous statement",
+        "ambiguous language",
+        "highly ambiguous",
+        "ambiguous situation"
+      ],
+      "sentences": [
+        {
+          "en": "Her reply was deliberately ambiguous to avoid giving a direct answer.",
+          "zh": "她的回答故意含糊其辞，以避免直接给出答案。"
+        },
+        {
+          "en": "The contract's terms were ambiguous, leading to a dispute between the parties.",
+          "zh": "合同的条款模棱两可，导致了双方之间的纠纷。"
+        }
+      ],
+      "synonyms": [
+        "vague",
+        "unclear",
+        "equivocal",
+        "indefinite"
+      ],
+      "antonyms": [
+        "clear",
+        "unambiguous",
+        "definite",
+        "explicit"
+      ],
+      "confusion_alert": "Do not confuse 'ambiguous' (having multiple meanings) with 'ambivalent' (having mixed feelings). An ambiguous statement is unclear; an ambivalent person is uncertain about their feelings."
+    },
+    {
+      "word": "integral",
+      "phonetic_us": "/ˈɪntɪɡrəl/",
+      "phonetic_uk": "/ˈɪntɪɡrəl/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "构成整体所必需的；不可或缺的",
+          "example": "Practice is an integral part of language learning."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "完整的；整体的",
+          "example": "We need to consider the problem in its integral form."
+        },
+        {
+          "pos": "noun",
+          "meaning": "【数学】积分",
+          "example": "He solved the integral in just five minutes."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 'integer'，意为“完整的、未受损的”，通过法语 'intégral' 进入英语。",
+        "breakdown": "in-（不）+ tangere（触摸）→ 未触摸过的 → 完整的 → 构成整体所必需的"
+      },
+      "memory_aids": {
+        "mnemonic": "in（里面）+ te（特）+ gral（谐音“够全”）→ 里面的特质足够全 → 不可或缺的",
+        "story": "想象一个完整的拼图（integral puzzle），每一块都是不可或缺的（integral），缺少任何一块都无法构成完整的画面。"
+      },
+      "collocations": [
+        "integral part",
+        "integral component",
+        "integral role",
+        "integral to something"
+      ],
+      "sentences": [
+        {
+          "en": "Teamwork is integral to the success of this project.",
+          "zh": "团队合作是这个项目成功不可或缺的。"
+        },
+        {
+          "en": "The new feature is an integral component of the software update.",
+          "zh": "这个新功能是软件更新的一个核心组成部分。"
+        },
+        {
+          "en": "She played an integral role in the company's expansion.",
+          "zh": "她在公司的扩张中扮演了关键角色。"
+        }
+      ],
+      "synonyms": [
+        "essential",
+        "fundamental",
+        "indispensable",
+        "crucial"
+      ],
+      "antonyms": [
+        "peripheral",
+        "nonessential",
+        "extraneous"
+      ],
+      "confusion_alert": "注意与 'integrate'（动词，整合）和 'integrity'（名词，正直；完整）区分。'Integral' 主要作形容词，强调“不可或缺的”或作数学名词“积分”。"
+    },
+    {
+      "word": "endorse",
+      "phonetic_us": "/ɪnˈdɔːrs/",
+      "phonetic_uk": "/ɪnˈdɔːs/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "公开表示支持或赞同",
+          "example": "The celebrity endorsed the new brand of sneakers."
+        },
+        {
+          "pos": "verb",
+          "meaning": "在支票背面签字以授权转账",
+          "example": "You must endorse the check before depositing it."
+        },
+        {
+          "pos": "verb",
+          "meaning": "在文件上签字表示批准",
+          "example": "The manager endorsed the proposal with his signature."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 indorsare，由 in-（在...上）和 dorsum（背面）组成",
+        "breakdown": "in-（在...上）+ dorsum（背面）→ 原指在文件背面签字，后引申为支持"
+      },
+      "memory_aids": {
+        "mnemonic": "end（结束）+ orse（谐音“我司”）→ 我司结束选择，正式“支持”某方案",
+        "story": "想象一位明星在支票背面（dorsum）签名（endorse），既表示支持该品牌，也完成了财务授权。"
+      },
+      "collocations": [
+        "endorse a candidate",
+        "endorse a product",
+        "endorse a policy"
+      ],
+      "sentences": [
+        {
+          "en": "Many scientists endorse the use of renewable energy to combat climate change.",
+          "zh": "许多科学家支持使用可再生能源应对气候变化。"
+        },
+        {
+          "en": "The check cannot be cashed unless it is properly endorsed.",
+          "zh": "支票必须经过正确背书才能兑现。"
+        }
+      ],
+      "synonyms": [
+        "support",
+        "approve",
+        "sanction"
+      ],
+      "antonyms": [
+        "oppose",
+        "reject",
+        "condemn"
+      ],
+      "confusion_alert": "易与 'indorse' 混淆（美式英语中 'endorse' 更常用）；勿与 'endow'（捐赠）或 'enforce'（强制执行）混淆。"
+    },
+    {
+      "word": "regime",
+      "phonetic_us": "/rəˈʒiːm/",
+      "phonetic_uk": "/reɪˈʒiːm/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "（尤指通过不民主方式建立的）政权，政体",
+          "example": "The new regime promised to bring stability to the country."
+        },
+        {
+          "pos": "n.",
+          "meaning": "（特定的）管理制度，体系",
+          "example": "She follows a strict fitness regime to stay in shape."
+        },
+        {
+          "pos": "n.",
+          "meaning": "（医学或科学上的）疗程，方案",
+          "example": "The doctor prescribed a new drug regime for the patient."
+        }
+      ],
+      "etymology": {
+        "origin": "源自法语“régime”，最初来自拉丁语“regimen”（意为“规则、管理”），词根为“regere”（意为“统治、引导”）",
+        "breakdown": "regere（统治） → regimen（规则） → régime（政权/制度）"
+      },
+      "memory_aids": {
+        "mnemonic": "Re（再）+ gime（谐音“制度”）→ 一再强调的制度 → 政权/体系",
+        "story": "想象一个国王（re-）制定了一套严格的“制度”（gime 谐音），用来统治他的王国，这就是 regime（政权/制度）。"
+      },
+      "collocations": [
+        "political regime",
+        "fitness regime",
+        "strict regime",
+        "change of regime"
+      ],
+      "sentences": [
+        {
+          "en": "The old regime was overthrown in a violent revolution.",
+          "zh": "旧政权在一场暴力革命中被推翻。"
+        },
+        {
+          "en": "He maintains a daily regime of meditation and exercise.",
+          "zh": "他坚持每天冥想和锻炼的养生计划。"
+        },
+        {
+          "en": "The new tax regime will come into effect next year.",
+          "zh": "新的税收制度将于明年生效。"
+        }
+      ],
+      "synonyms": [
+        "government",
+        "administration",
+        "system",
+        "routine"
+      ],
+      "antonyms": [
+        "anarchy",
+        "chaos"
+      ],
+      "confusion_alert": "易与“regimen”混淆，两者词源相同且含义相近，但“regimen”更侧重个人养生或医疗方案，而“regime”更常指政治政权或广义制度。"
+    },
+    {
+      "word": "perpetual",
+      "phonetic_us": "/pərˈpetʃuəl/",
+      "phonetic_uk": "/pəˈpetʃuəl/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "永久的，永恒的；不间断的，持续的",
+          "example": "They lived in a state of perpetual fear."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "（尤指令人不快的事物）反复发生的，没完没了的",
+          "example": "He was tired of her perpetual complaints."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 perpetuus，意为“连续的、不间断的”，由 per-（完全、彻底）和 petere（寻求、前往）组成。",
+        "breakdown": "per-（完全）+ petere（寻求、前往）→ 字面意为“一直寻求/前往”，引申为“持续不断”。"
+      },
+      "memory_aids": {
+        "mnemonic": "“Per-pet-ual” → 想象一只宠物（pet）永远（per）在你身边（ual），表示“永久的陪伴”。",
+        "story": "在古老的神话里，有一位国王被诅咒陷入 perpetual sleep（永久的沉睡），他的宠物龙一直守护着他，形成了一个 perpetual cycle（永恒的循环），直到一位勇士打破了这个 perpetual motion（永恒的运动）。"
+      },
+      "collocations": [
+        "perpetual motion",
+        "perpetual calendar",
+        "perpetual student"
+      ],
+      "sentences": [
+        {
+          "en": "The invention claimed to be a perpetual motion machine, defying the laws of physics.",
+          "zh": "这项发明声称是一台永动机，违背了物理定律。"
+        },
+        {
+          "en": "Her perpetual optimism inspired everyone around her.",
+          "zh": "她永恒的乐观精神激励着身边的每一个人。"
+        }
+      ],
+      "synonyms": [
+        "eternal",
+        "everlasting",
+        "incessant",
+        "continuous"
+      ],
+      "antonyms": [
+        "temporary",
+        "intermittent",
+        "finite",
+        "transient"
+      ],
+      "confusion_alert": "注意与 'perpetrate'（动词，意为“犯下罪行”）区分。'Perpetual' 是形容词，描述状态；'perpetrate' 是动词，描述行为。"
+    },
+    {
+      "word": "arbitrary",
+      "phonetic_us": "/ˈɑːrbətreri/",
+      "phonetic_uk": "/ˈɑːbɪtrəri/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "based on random choice or personal whim, rather than any reason or system",
+          "example": "The decision seemed arbitrary and unfair."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "exercising power without restraint; autocratic",
+          "example": "The arbitrary rule of the dictator caused widespread suffering."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English (in the sense 'dependent on one's will or pleasure, discretionary'): from Latin arbitrarius, from arbiter 'judge, supreme ruler'.",
+        "breakdown": "The word comes from Latin 'arbitrarius', meaning 'depending on the will of an arbiter (judge)'. An arbiter makes decisions, often based on personal judgment rather than fixed rules, which is the core idea of 'arbitrary'."
+      },
+      "memory_aids": {
+        "mnemonic": "Arbi-TRARY: Think of a judge (arbiter) making a decision based on a random TRAY of options, not logic.",
+        "story": "Imagine a king named 'Arbi' who makes all his decisions by throwing a dart at a board full of random choices. His 'Arbi-trary' rulings confuse everyone because they lack reason."
+      },
+      "collocations": [
+        "arbitrary decision",
+        "arbitrary power",
+        "arbitrary rule",
+        "seem arbitrary"
+      ],
+      "sentences": [
+        {
+          "en": "The selection process was criticized for being arbitrary and lacking clear criteria.",
+          "zh": "选拔过程因武断且缺乏明确标准而受到批评。"
+        },
+        {
+          "en": "The manager's arbitrary dismissal of employees led to low morale in the company.",
+          "zh": "经理武断地解雇员工导致公司士气低落。"
+        }
+      ],
+      "synonyms": [
+        "random",
+        "capricious",
+        "whimsical",
+        "subjective"
+      ],
+      "antonyms": [
+        "rational",
+        "reasoned",
+        "systematic",
+        "justified"
+      ],
+      "confusion_alert": "Do not confuse 'arbitrary' with 'arbitrator' (a person who settles disputes). While they share the same root, 'arbitrary' describes unreasoned decisions, whereas an 'arbitrator' is meant to make reasoned judgments."
+    },
+    {
+      "word": "dismantle",
+      "phonetic_us": "/dɪsˈmæntl/",
+      "phonetic_uk": "/dɪsˈmæntl/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to take a machine or structure apart so that it is in separate pieces",
+          "example": "They had to dismantle the engine to find the problem."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to end a system, organization, or institution in a gradual way",
+          "example": "The government plans to dismantle the outdated regulations."
+        }
+      ],
+      "etymology": {
+        "origin": "Late 16th century (in the sense 'destroy the defensive capability of a fortification'): from Old French desmanteler, from des- (expressing reversal) + manteler 'to fortify'.",
+        "breakdown": "From Old French 'desmanteler', where 'des-' means 'reverse' or 'undo', and 'manteler' relates to fortification or covering."
+      },
+      "memory_aids": {
+        "mnemonic": "拆散（dis-）满（man）头（tle）的机器",
+        "story": "想象一个工程师决定拆散（dismantle）一个满头（man）灰尘的旧机器，他一边拆一边说：“这机器太满了（man），必须拆开清理！”"
+      },
+      "collocations": [
+        "dismantle a system",
+        "dismantle a structure",
+        "dismantle a device"
+      ],
+      "sentences": [
+        {
+          "en": "The workers will dismantle the old bridge next month.",
+          "zh": "工人们下个月将拆除这座旧桥。"
+        },
+        {
+          "en": "The company decided to dismantle its overseas operations.",
+          "zh": "公司决定逐步撤销其海外业务。"
+        }
+      ],
+      "synonyms": [
+        "disassemble",
+        "take apart",
+        "demolish"
+      ],
+      "antonyms": [
+        "assemble",
+        "build",
+        "construct"
+      ],
+      "confusion_alert": "注意与 'disassemble' 的区别：'dismantle' 更常用于大型结构或系统，且可能带有永久性拆除的意味；'disassemble' 多指为维修或重组而拆卸零件。"
+    },
+    {
+      "word": "comprise",
+      "phonetic_us": "/kəmˈpraɪz/",
+      "phonetic_uk": "/kəmˈpraɪz/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to consist of particular parts, groups, etc.; to be made up of",
+          "example": "The team comprises players from five different countries."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to form or make up something",
+          "example": "Women comprise a significant portion of the workforce."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English",
+        "breakdown": "From Old French 'compris', past participle of 'comprendre', from Latin 'comprehendere' meaning 'to seize, comprise'."
+      },
+      "memory_aids": {
+        "mnemonic": "COM（共同）+ PRISE（抓住）→ 共同抓住 → 包含",
+        "story": "想象一个公司（COMpany）的年度报告，它抓住了（PRISE）所有部门的数据，因此报告包含了整个公司的运营情况。"
+      },
+      "collocations": [
+        "comprise mainly",
+        "comprise approximately",
+        "be comprised of"
+      ],
+      "sentences": [
+        {
+          "en": "The apartment comprises three bedrooms and two bathrooms.",
+          "zh": "这套公寓包含三间卧室和两间浴室。"
+        },
+        {
+          "en": "The committee is comprised of representatives from all departments.",
+          "zh": "该委员会由所有部门的代表组成。"
+        },
+        {
+          "en": "The collection comprises over 500 rare manuscripts.",
+          "zh": "该收藏包含500多份稀有手稿。"
+        }
+      ],
+      "synonyms": [
+        "consist of",
+        "include",
+        "contain",
+        "embrace",
+        "incorporate"
+      ],
+      "antonyms": [
+        "exclude",
+        "lack"
+      ],
+      "confusion_alert": "注意：'comprise' 通常表示整体包含部分，主动形式为 'A comprises B'（A包含B），被动形式为 'A is comprised of B'（A由B组成）。避免与 'compose'（组成）混淆，后者常用 'be composed of' 结构。"
+    },
+    {
+      "word": "elaborate",
+      "phonetic_us": "/ɪˈlæbəreɪt/ (adj.); /ɪˈlæbəreɪt/ (v.)",
+      "phonetic_uk": "/ɪˈlæbərət/ (adj.); /ɪˈlæbəreɪt/ (v.)",
+      "difficulty_level": "B2 (CEFR)",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "精心制作的；复杂的；详尽的",
+          "example": "She wore an elaborate gown to the ball."
+        },
+        {
+          "pos": "verb",
+          "meaning": "详细说明；精心制作",
+          "example": "Could you elaborate on your proposal?"
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 elaboratus，过去分词形式为 elaborare，意为“努力制作”，由 ex-（“出”）和 laborare（“劳动”）组成。",
+        "breakdown": "e-（出）+ labor（劳动）+ -ate（动词后缀）→ 通过劳动制作出来 → 精心制作"
+      },
+      "memory_aids": {
+        "mnemonic": "e（一）+ labor（劳动）+ ate（吃）→ 通过一番劳动才“吃”到 → 精心制作的",
+        "story": "想象一位厨师为准备一顿“精心制作的”（elaborate）大餐而辛勤“劳动”（labor），最后大家才“吃”（ate）到美食。"
+      },
+      "collocations": [
+        "elaborate plan",
+        "elaborate on something",
+        "highly elaborate"
+      ],
+      "sentences": [
+        {
+          "en": "The artist spent months creating an elaborate sculpture.",
+          "zh": "这位艺术家花了数月时间创作了一件精美的雕塑。"
+        },
+        {
+          "en": "Please elaborate on your reasons for choosing this method.",
+          "zh": "请详细说明你选择这种方法的原因。"
+        }
+      ],
+      "synonyms": [
+        "detailed",
+        "intricate",
+        "complex"
+      ],
+      "antonyms": [
+        "simple",
+        "plain",
+        "basic"
+      ],
+      "confusion_alert": "注意形容词和动词的发音差异（英式英语中形容词常读作 /ɪˈlæbərət/，动词为 /ɪˈlæbəreɪt/）；勿与“elaborative”（阐明的）混淆。"
+    },
+    {
+      "word": "skeptical",
+      "phonetic_us": "/ˈskeptɪkl/",
+      "phonetic_uk": "/ˈskeptɪkl/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "having doubts or reservations; not easily convinced",
+          "example": "She was skeptical about the new diet plan."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "relating to or characteristic of skepticism",
+          "example": "He took a skeptical approach to the research findings."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin 'scepticus', from Greek 'skeptikos', meaning 'inquiring, reflective'",
+        "breakdown": "Derived from Greek 'skeptesthai' (to examine, consider) + English suffix '-al' (pertaining to)"
+      },
+      "memory_aids": {
+        "mnemonic": "Skeptical sounds like 'skept-ical' – think 'skept' (skeptic) + 'ical' (like critical) → being critical and doubtful",
+        "story": "Imagine a scientist named Skeptical Sam who always questions everything. When someone says 'This potion makes you fly,' Sam says 'I need proof!'"
+      },
+      "collocations": [
+        "highly skeptical",
+        "remain skeptical",
+        "skeptical about/of something"
+      ],
+      "sentences": [
+        {
+          "en": "Many people are skeptical of online advertisements.",
+          "zh": "许多人对在线广告持怀疑态度。"
+        },
+        {
+          "en": "The teacher was skeptical of his excuse for not doing homework.",
+          "zh": "老师对他没做作业的借口表示怀疑。"
+        }
+      ],
+      "synonyms": [
+        "doubtful",
+        "suspicious",
+        "unconvinced"
+      ],
+      "antonyms": [
+        "convinced",
+        "trusting",
+        "credulous"
+      ],
+      "confusion_alert": "不要与 'sceptical'（英式拼写变体）混淆，两者发音和含义相同，仅拼写差异。"
+    },
+    {
+      "word": "consolidate",
+      "phonetic_us": "/kənˈsɑːlɪdeɪt/",
+      "phonetic_uk": "/kənˈsɒlɪdeɪt/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to combine several things, especially businesses, so that they become more effective, or to become more effective",
+          "example": "The company consolidated its position in the market by acquiring several smaller competitors."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to make something stronger or more solid",
+          "example": "The team needs to consolidate their lead before halftime."
+        },
+        {
+          "pos": "verb",
+          "meaning": "to bring together separate parts into a single or unified whole",
+          "example": "She consolidated all her debts into one loan."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin consolidatus, past participle of consolidare, from com- (together) + solidare (to make solid), from solidus (solid).",
+        "breakdown": "con- (together) + solidus (solid) + -ate (verb suffix) → to make solid together"
+      },
+      "memory_aids": {
+        "mnemonic": "CON (together) + SOLID (solid) + ATE (verb) → 把东西“一起变牢固”就是巩固、合并。",
+        "story": "想象一家公司（CON）把所有部门合并成一个坚固的（SOLID）整体，就像吃了一顿大餐（ATE）后变得更强壮一样。"
+      },
+      "collocations": [
+        "consolidate power",
+        "consolidate debt",
+        "consolidate gains",
+        "consolidate resources"
+      ],
+      "sentences": [
+        {
+          "en": "The government aims to consolidate various social programs to improve efficiency.",
+          "zh": "政府旨在整合各种社会项目以提高效率。"
+        },
+        {
+          "en": "After the merger, the new company consolidated its operations in a single headquarters.",
+          "zh": "合并后，新公司将运营整合到单一总部。"
+        },
+        {
+          "en": "He spent the weekend consolidating his notes for the final exam.",
+          "zh": "他花了整个周末整理笔记，为期末考试做准备。"
+        }
+      ],
+      "synonyms": [
+        "strengthen",
+        "unify",
+        "merge",
+        "integrate",
+        "combine"
+      ],
+      "antonyms": [
+        "weaken",
+        "separate",
+        "divide",
+        "disperse"
+      ],
+      "confusion_alert": "注意与 'console'（安慰）或 'solidify'（使凝固）区分。'Consolidate' 强调整合或巩固现有事物，而 'solidify' 更偏向物理或抽象上的固化。"
+    },
+    {
+      "word": "resilient",
+      "phonetic_us": "/rɪˈzɪliənt/",
+      "phonetic_uk": "/rɪˈzɪliənt/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "able to withstand or recover quickly from difficult conditions; elastic",
+          "example": "Children are often more resilient than adults when facing setbacks."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "(of a substance or object) able to spring back into shape after being bent, stretched, or compressed",
+          "example": "The material is highly resilient and durable."
+        }
+      ],
+      "etymology": {
+        "origin": "From Latin 'resilire', meaning 'to leap back' or 'rebound'.",
+        "breakdown": "re- (back) + salire (to jump, leap)"
+      },
+      "memory_aids": {
+        "mnemonic": "Re-silient: 反复（re）有弹性（silient 联想 silent 但换成弹性），表示有韧性。",
+        "story": "想象一根橡皮筋（resilient material）被拉伸后总能弹回原状，就像一个有韧性的人（resilient person）遇到压力后总能恢复活力。"
+      },
+      "collocations": [
+        "highly resilient",
+        "resilient economy",
+        "resilient material",
+        "resilient spirit"
+      ],
+      "sentences": [
+        {
+          "en": "She showed a resilient attitude in the face of adversity.",
+          "zh": "面对逆境，她表现出坚韧的态度。"
+        },
+        {
+          "en": "The community proved resilient after the natural disaster.",
+          "zh": "自然灾害后，这个社区展现了强大的恢复力。"
+        }
+      ],
+      "synonyms": [
+        "tough",
+        "durable",
+        "flexible",
+        "robust"
+      ],
+      "antonyms": [
+        "fragile",
+        "vulnerable",
+        "weak"
+      ],
+      "confusion_alert": "不要与 'resistant'（抵抗的）混淆。'Resilient' 强调恢复能力，而 'resistant' 强调抵御能力。"
+    },
+    {
+      "word": "predecessor",
+      "phonetic_us": "/ˈpredəsesər/",
+      "phonetic_uk": "/ˈpriːdɪsesə(r)/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "前任；前辈；原有事物",
+          "example": "My predecessor in this role left the company after five years."
+        },
+        {
+          "pos": "n.",
+          "meaning": "（被取代的）原有事物，前身",
+          "example": "This new model is much faster than its predecessor."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 praedecessor，由 prae-（在前）和 decessor（离开者）组成。",
+        "breakdown": "prae-（在前）+ decessor（离开者） → 先离开的人或事物"
+      },
+      "memory_aids": {
+        "mnemonic": "pre（前）+ decess（离开）+ or（人） → 先前离开的人 → 前任",
+        "story": "想象一位公司CEO在退休前（pre-）将职位交给继任者，这位“先前离开的人”就是 predecessor。"
+      },
+      "collocations": [
+        "immediate predecessor",
+        "direct predecessor",
+        "historical predecessor"
+      ],
+      "sentences": [
+        {
+          "en": "The new manager made several changes that differed from the practices of her predecessor.",
+          "zh": "新经理做出了几项改变，与她前任的做法不同。"
+        },
+        {
+          "en": "This smartphone's battery life is significantly better than that of its predecessor.",
+          "zh": "这款智能手机的电池续航时间明显优于其前代产品。"
+        }
+      ],
+      "synonyms": [
+        "forerunner",
+        "precursor",
+        "antecedent"
+      ],
+      "antonyms": [
+        "successor",
+        "follower"
+      ],
+      "confusion_alert": "易与 successor（继任者）混淆。predecessor 指“前任”，successor 指“接任者”，两者互为反义。"
+    },
+    {
+      "word": "curb",
+      "phonetic_us": "/kɜːrb/",
+      "phonetic_uk": "/kɜːb/",
+      "difficulty_level": "B2",
+      "definitions": [
+        {
+          "pos": "verb",
+          "meaning": "to control or limit something, especially something bad",
+          "example": "The government is taking measures to curb inflation."
+        },
+        {
+          "pos": "noun",
+          "meaning": "a stone or concrete edging along a street",
+          "example": "He parked his car close to the curb."
+        },
+        {
+          "pos": "noun",
+          "meaning": "something that restrains or controls",
+          "example": "High interest rates act as a curb on spending."
+        }
+      ],
+      "etymology": {
+        "origin": "From Old French 'courbe', meaning 'curved piece of wood or metal', from Latin 'curvus', meaning 'curved'.",
+        "breakdown": "The word originally referred to a curved strap used to restrain a horse, which evolved into meanings related to restraint and control."
+      },
+      "memory_aids": {
+        "mnemonic": "Curb sounds like 'kerb' (UK spelling for the edge of a road) – imagine a curb controlling where cars can go.",
+        "story": "Think of a horse being curbed by a rein – it's being controlled. Similarly, we curb our spending or curb pollution."
+      },
+      "collocations": [
+        "curb inflation",
+        "curb emissions",
+        "curb appetite",
+        "curb violence"
+      ],
+      "sentences": [
+        {
+          "en": "We need to curb our enthusiasm to avoid disappointment.",
+          "zh": "我们需要抑制热情以避免失望。"
+        },
+        {
+          "en": "She stood on the curb waiting for the bus.",
+          "zh": "她站在路边等公交车。"
+        },
+        {
+          "en": "Strict laws are necessary to curb illegal activities.",
+          "zh": "严格的法律对于遏制非法活动是必要的。"
+        }
+      ],
+      "synonyms": [
+        "restrain",
+        "control",
+        "check",
+        "limit"
+      ],
+      "antonyms": [
+        "encourage",
+        "promote",
+        "release"
+      ],
+      "confusion_alert": "In British English, 'kerb' refers specifically to the stone edge of a pavement, while 'curb' is used for the verb meaning to restrain. In American English, 'curb' is used for both meanings."
+    },
+    {
+      "word": "surveillance",
+      "phonetic_us": "/sərˈveɪləns/",
+      "phonetic_uk": "/səˈveɪləns/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "监视，监督",
+          "example": "The police kept the suspect under constant surveillance."
+        },
+        {
+          "pos": "n.",
+          "meaning": "监控，监管",
+          "example": "The government increased surveillance of public spaces for security reasons."
+        }
+      ],
+      "etymology": {
+        "origin": "法语",
+        "breakdown": "源自法语 surveiller（监视），由 sur-（在...之上）和 veiller（观看）组成，字面意思为“从上往下看”"
+      },
+      "memory_aids": {
+        "mnemonic": "sur（在...上）+ veil（面纱）+ lance（长矛）→ 用长矛挑开面纱监视",
+        "story": "想象一个中世纪哨兵，手持长矛（lance）站在城墙上，掀开（sur-）遮挡视线的面纱（veil），密切监视（surveillance）城外的动静。"
+      },
+      "collocations": [
+        "under surveillance",
+        "electronic surveillance",
+        "close surveillance"
+      ],
+      "sentences": [
+        {
+          "en": "The building is equipped with 24-hour video surveillance.",
+          "zh": "这栋建筑配备了24小时视频监控。"
+        },
+        {
+          "en": "Public surveillance cameras have become common in many cities.",
+          "zh": "公共监控摄像头已在许多城市变得普遍。"
+        }
+      ],
+      "synonyms": [
+        "monitoring",
+        "observation",
+        "watch"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignorance"
+      ],
+      "confusion_alert": "易与 survey（调查）混淆。Surveillance 强调持续监视，而 survey 多指一次性或阶段性的全面考察。"
+    },
+    {
+      "word": "rigorous",
+      "phonetic_us": "/ˈrɪɡərəs/",
+      "phonetic_uk": "/ˈrɪɡərəs/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "extremely thorough, exhaustive, or accurate; demanding strict attention to standards and procedures",
+          "example": "The research was conducted with rigorous scientific methods."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "harsh, severe, or demanding",
+          "example": "The training program is known for its rigorous physical challenges."
+        }
+      ],
+      "etymology": {
+        "origin": "Late Middle English: from Old French rigorous or late Latin rigorosus, from Latin rigor 'stiffness, rigor'.",
+        "breakdown": "Derived from Latin 'rigor' (meaning stiffness, severity) + the suffix '-ous' (meaning full of or characterized by)."
+      },
+      "memory_aids": {
+        "mnemonic": "RIGOROUS = RIGID + VIGOROUS → 像 rigid（严格的）一样 vigorous（充满活力的）要求",
+        "story": "想象一位严格的教练（rigid）设计了一套充满活力的（vigorous）训练计划，要求每个动作都必须精确到位——这就是 rigorous 的训练。"
+      },
+      "collocations": [
+        "rigorous testing",
+        "rigorous standards",
+        "rigorous analysis",
+        "rigorous training"
+      ],
+      "sentences": [
+        {
+          "en": "The university has a rigorous admissions process to select the best candidates.",
+          "zh": "这所大学有严格的录取流程来选拔最优秀的申请者。"
+        },
+        {
+          "en": "She maintains a rigorous schedule to balance work and study.",
+          "zh": "她保持着严格的时间表来平衡工作和学习。"
+        },
+        {
+          "en": "The new drug underwent rigorous clinical trials before approval.",
+          "zh": "这种新药在获批前经过了严格的临床试验。"
+        }
+      ],
+      "synonyms": [
+        "meticulous",
+        "thorough",
+        "stringent",
+        "demanding"
+      ],
+      "antonyms": [
+        "lax",
+        "lenient",
+        "casual",
+        "careless"
+      ],
+      "confusion_alert": "易与 'vigorous'（精力充沛的）混淆。'Rigorous' 强调严格、精确，而 'vigorous' 强调有力、充满活力。例如：a rigorous exam（严格的考试）vs. vigorous exercise（剧烈的运动）。"
+    },
+    {
+      "word": "paradox",
+      "phonetic_us": "/ˈpærəˌdɑːks/",
+      "phonetic_uk": "/ˈpærədɒks/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "悖论；自相矛盾的人或事物；似非而是的论点",
+          "example": "It is a paradox that in such a rich country there can be so much poverty."
+        },
+        {
+          "pos": "n.",
+          "meaning": "矛盾修辞法",
+          "example": "The phrase 'bittersweet' is a classic paradox in literature."
+        }
+      ],
+      "etymology": {
+        "origin": "源自拉丁语 paradoxum，希腊语 paradoxon",
+        "breakdown": "para-（超越，相反）+ doxa（观点，信念）→ 与通常观点相反的事物"
+      },
+      "memory_aids": {
+        "mnemonic": "Para（平行）+ dox（观点）→ 两种矛盾观点平行存在 → 悖论",
+        "story": "想象一个哲学家说：“我这句话是假的。”如果这句话是真的，那么它就是假的；如果它是假的，那么它就是真的。这种自相矛盾的情况就是典型的 paradox。"
+      },
+      "collocations": [
+        "apparent paradox",
+        "central paradox",
+        "resolve a paradox"
+      ],
+      "sentences": [
+        {
+          "en": "The paradox of time travel has fascinated scientists for decades.",
+          "zh": "时间旅行的悖论几十年来一直让科学家着迷。"
+        },
+        {
+          "en": "He was a paradox—a shy man who loved performing on stage.",
+          "zh": "他是个矛盾体——一个害羞却热爱舞台表演的人。"
+        }
+      ],
+      "synonyms": [
+        "contradiction",
+        "irony",
+        "puzzle"
+      ],
+      "antonyms": [
+        "consistency",
+        "certainty"
+      ],
+      "confusion_alert": "注意与 'pair of ducks'（一对鸭子）发音相似，但含义完全不同。在学术写作中，paradox 常与 'dilemma'（两难困境）混淆，前者强调逻辑矛盾，后者强调艰难选择。"
+    },
+    {
+      "word": "tentative",
+      "phonetic_us": "/ˈtentətɪv/",
+      "phonetic_uk": "/ˈtentətɪv/",
+      "difficulty_level": "C1",
+      "definitions": [
+        {
+          "pos": "adjective",
+          "meaning": "not certain or fixed; done without confidence",
+          "example": "We've made a tentative plan to meet next week."
+        },
+        {
+          "pos": "adjective",
+          "meaning": "hesitant or cautious",
+          "example": "She took a few tentative steps into the dark room."
+        }
+      ],
+      "etymology": {
+        "origin": "Late 16th century: from medieval Latin tentativus, from Latin tentare ‘to handle, try’.",
+        "breakdown": "Derived from Latin 'tentare' (to try, to test), which is a variant of 'temptare' (to test, to try). The root implies an action of testing or trying something without full commitment."
+      },
+      "memory_aids": {
+        "mnemonic": "Tentative = Tent + Active → Imagine setting up a tent actively but cautiously because you're not sure if it's the right spot.",
+        "story": "Think of a scientist in a lab, conducting a 'tentative' experiment. She's not sure if her hypothesis is correct, so she proceeds with caution, taking small, hesitant steps and making provisional plans. The word captures that sense of uncertainty and careful testing."
+      },
+      "collocations": [
+        "tentative agreement",
+        "tentative steps",
+        "tentative plan",
+        "tentative conclusion"
+      ],
+      "sentences": [
+        {
+          "en": "The company has reached a tentative agreement with the union.",
+          "zh": "公司已与工会达成一项暂定协议。"
+        },
+        {
+          "en": "He gave a tentative smile, unsure of how his joke would be received.",
+          "zh": "他试探性地笑了笑，不确定他的笑话会得到怎样的反应。"
+        }
+      ],
+      "synonyms": [
+        "provisional",
+        "hesitant",
+        "cautious",
+        "uncertain"
+      ],
+      "antonyms": [
+        "definite",
+        "confident",
+        "certain",
+        "decisive"
+      ],
+      "confusion_alert": "Do not confuse 'tentative' with 'temperate' (mild or moderate in behavior or climate). Also, note that 'tentative' is often used in formal or academic contexts to describe plans, agreements, or actions that are not final."
+    }
+  ],
+  "currentIndex": 44,
+  "exportTime": "2025-12-14T15:25:24.224Z"
+}
