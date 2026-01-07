@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04Areas(领域)/编程/git/gitignore清理.md",
+                "file": "04Areas(领域)/编程/面向对象编程/面向对象编程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gitignore清理"
+              "title": "面向对象编程"
             }
           },
           {
@@ -241,9 +241,11 @@
   },
   "active": "79b6dbe9cb417f7d",
   "lastOpenFiles": [
+    "04Areas(领域)/编程/git/gitignore清理.md",
+    "04Areas(领域)/编程/面向对象编程/面向对象编程.md",
+    "04Areas(领域)/编程/面向对象编程",
     "04Areas(领域)/LLM_Map/ReAct框架",
     "04Areas(领域)/Areas_main.md",
-    "04Areas(领域)/编程/git/gitignore清理.md",
     "04Areas(领域)/编程/git",
     "04Areas(领域)/编程",
     "04Areas(领域)/数学/线性代数/2. 向量的基本几何意义.md",
@@ -280,8 +282,6 @@
     "01个人主页/个人主页.canvas",
     "05Resources(资源)/obsidian tip/Vim相关教程/png001.png",
     "05Resources(资源)/obsidian tip",
-    "Excalidraw",
-    "03Project(项目)/work",
     "03Project(项目)/周会/6b9c618e3178d219063f83feed4b8f9c.png",
     "03Project(项目)/work/面试/Pasted Image 20250625144800_965.png",
     "03Project(项目)/work/面试/Pasted image 20250625142250.png",
