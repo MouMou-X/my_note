@@ -1,0 +1,4 @@
+# 将规则写入 .gitignore 文件
+echo ".DS_Store" >> .gitignore
+echo ".idea/" >> .gitignore
+echo ".obsidian/graph.json" >> .gitignore
