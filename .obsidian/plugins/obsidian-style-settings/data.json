@@ -1,5 +1,18 @@
 {
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
-  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-waves-light"
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
+  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-custom-option",
+  "blue-topaz-theme@@blur-depth": 0,
+  "blue-topaz-theme@@background-settings-workplace-theme-light-custom": "obsidian://open?vault=my_note&file=01%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%2F%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%2Fimg%2Fv2a6f72c5.png",
+  "blue-topaz-theme@@brightness-4-bg": 0.6,
+  "blue-topaz-theme@@saturate-4-bg": 1,
+  "blue-topaz-theme@@background-settings-workplace-theme-dark-custom": "url(\"https://picx.zhimg.com/v2-58aec81346e543030a1855e6a342af7d_1440w.jpg\")",
+  "blue-topaz-theme@@background-image-settings-switch": false,
+  "blue-topaz-theme@@background-notebook-liked-switch": false,
+  "blue-topaz-theme@@toggle-bg-panel-page": false,
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "blue-topaz-theme@@layout-style-options": "bt-bubble-layout"
 }

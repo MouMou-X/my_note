@@ -2,8 +2,10 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "新建文本文档",
-    "css分栏"
+    "css分栏",
+    "homepage"
   ],
   "cssTheme": "Blue Topaz",
-  "accentColor": "#81a1c1"
+  "accentColor": "#81a1c1",
+  "nativeMenus": false
 }

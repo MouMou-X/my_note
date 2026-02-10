@@ -4,75 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e6ce253b02f47bc",
+        "id": "23ffcbe798d10086",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9da952e5db717c",
+            "id": "17a059e9c7a1040c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04Areas(领域)/LLM_Map/上采样、下采样.md",
+                "file": "01个人主页/主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "上采样、下采样"
-            }
-          },
-          {
-            "id": "03b48a6311e905c5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
-            "id": "98d29bb71deedf3b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-01-03 13.07.31.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-03 13.07.31.excalidraw"
-            }
-          },
-          {
-            "id": "79b6dbe9cb417f7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04Areas(领域)/编程/面向对象编程/面向对象编程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "面向对象编程"
-            }
-          },
-          {
-            "id": "b679ccd83b425029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "主页"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:LLM/工程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,12 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "03Project(项目)/work/工作项目/opencompass/opencompass.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "opencompass 的大纲"
             }
           },
           {
@@ -160,17 +110,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "线性代数/1.3 线性映射和线性变换的几何意义.md",
+                "file": "04Areas(领域)/LLM/Claude-code 本地手工使用与评测 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "1.3 线性映射和线性变换的几何意义 的反向链接列表"
+              "title": "Claude-code 本地手工使用与评测 1 的反向链接列表"
             }
           },
           {
@@ -194,16 +144,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "线性代数/1.3 线性映射和线性变换的几何意义.md",
+                "file": "04Areas(领域)/LLM/Claude-code 本地手工使用与评测 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1.3 线性映射和线性变换的几何意义 的出链列表"
+              "title": "Claude-code 本地手工使用与评测 1 的出链列表"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "b0dc2ee6513e9c63",
@@ -224,13 +173,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 302.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
-      "switcher:打开快速切换": false,
+      "bases:新建数据库": false,
       "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
@@ -239,55 +189,55 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "79b6dbe9cb417f7d",
+  "active": "17a059e9c7a1040c",
   "lastOpenFiles": [
-    "04Areas(领域)/编程/git/gitignore清理.md",
-    "04Areas(领域)/编程/面向对象编程/面向对象编程.md",
-    "04Areas(领域)/编程/面向对象编程",
-    "04Areas(领域)/LLM_Map/ReAct框架",
-    "04Areas(领域)/Areas_main.md",
-    "04Areas(领域)/编程/git",
-    "04Areas(领域)/编程",
-    "04Areas(领域)/数学/线性代数/2. 向量的基本几何意义.md",
-    "03Project(项目)/第二大脑/LLM白版交互软件.md",
-    "03Project(项目)/第二大脑/正则表达式笔记.md",
-    "03Project(项目)/第二大脑/学习方法.md",
-    "03Project(项目)/第二大脑/多智能体系统.md",
-    "Pasted image 20260103140302.png",
-    "03Project(项目)/第二大脑/Pasted image 20260103140307.png",
-    "Excalidraw/Drawing 2026-01-03 13.07.31.excalidraw.md",
-    "学习笔记：如何全面衡量一个大模型预training的好坏？.md",
-    "04Areas(领域)/LLM_Map/grok4thinking_systerm_prompt.md",
-    "04Areas(领域)/LLM_Map/gemini3_systerm_prompt.md",
-    "03Project(项目)/Project_main.md",
-    "03Project(项目)/第二大脑",
-    "Excalidraw/Drawing 2025-12-18 20.35.46.excalidraw.md",
-    "03Project(项目)/第二大脑/皆可问.canvas",
-    "json合并.md",
-    "04Areas(领域)/LLM_Map/上采样、下采样.md",
-    "04Areas(领域)/LLM_Map/00LLM_Map.md",
-    "07daily/2025-12-10.md",
-    "07daily/2025-12-09.md",
-    "LLM_Map.md",
-    "02Inbox(收集箱)/Inbox_main.md",
-    "template/日记模版/日记模版.md",
-    "04Areas(领域)/LLM_Map/guiagent.md",
-    "04Areas(领域)/LLM_Map/多路召回.md",
-    "03Project(项目)/work/工作项目/opencompass/opencompass.md",
-    "04Areas(领域)/LLM_Map",
-    "06Archive(归档)/Archive_main.md",
-    "03daily",
-    "04Areas(领域)/数学",
-    "未命名.base",
+    "04Areas(领域)/LLM/ReAct框架.md",
+    "01个人主页/主页.md",
+    "01个人主页/配置文件/img/v2a6f72c5.png",
+    "01个人主页/配置文件/img/a342af7d_r.jpg",
+    "01个人主页/配置文件/img/Second Brain.png",
+    "01个人主页/配置文件/img/Second_Brain.png",
+    "01个人主页/配置文件/img/1d71e4a18.jpg",
     "01个人主页/个人主页.canvas",
-    "05Resources(资源)/obsidian tip/Vim相关教程/png001.png",
-    "05Resources(资源)/obsidian tip",
-    "03Project(项目)/周会/6b9c618e3178d219063f83feed4b8f9c.png",
+    "04Areas(领域)/LLM/深度学习_Map.md",
+    "01个人主页/规划文档.md",
+    "01个人主页/规划文档-gemini.md",
+    "01个人主页/配置文件/img/未确认 37515.crdownload",
+    "01个人主页/配置文件/img/未确认 808222.crdownload",
+    "01个人主页/配置文件/img/未确认 647532.crdownload",
+    "04Areas(领域)/Areas_main.md",
+    "04Areas(领域)/Tools.md",
+    "04Areas(领域)/LLM/00LLM_Map.md",
+    "Wiki.md",
+    "06Archive(归档)/Archive_main.md",
+    "02Inbox(收集箱)/CaLM/wiki.md",
+    "02Inbox(收集箱)/CaLM/CaLM.md",
+    "01个人主页/目标/个人网页.md",
+    "02Inbox(收集箱)/Inbox_main.md",
+    "03Project(项目)/work/工作项目/复杂指令遵循/Gemini2.5pro06-05完成复杂指令遵循任务建议.md",
+    "02Inbox(收集箱)/note/钩子（hook）.md",
+    "03Project(项目)/Project_main.md",
+    "05Resources(资源)/Resources_main.md",
+    "04Areas(领域)/LLM/LLM_notes/Agent开发学习指南.md",
+    "07daily/07daily.md",
+    "03Project(项目)/work/工作项目/calm/概率论/样本方差.md",
+    "04Areas(领域)/数学/线性代数/0.目录-线性代数的集合意义.md",
+    "MuSR.md",
+    "未命名.md",
+    "通过可扩展检索实现条件记忆：大型语言模型稀疏性的新维度.md",
+    "03Project(项目)/work/工作项目/calm/论文/【论文】语言模型因果评估.md",
+    "03Project(项目)/work/工作项目/calm/论文",
+    "03Project(项目)/work/工作项目/calm/矩",
+    "03Project(项目)/work/工作项目/calm/概率论",
+    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/__init__.cpython-310.pyc",
+    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/math.cpython-310.pyc",
+    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/weather.cpython-310.pyc",
+    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__init__.py",
+    "Pasted image 20260116105247.png",
     "03Project(项目)/work/面试/Pasted Image 20250625144800_965.png",
     "03Project(项目)/work/面试/Pasted image 20250625142250.png",
-    "Pasted Image 20250625144817_833.png",
-    "Pasted Image 20250625145457_954.png",
-    "Pasted Image 20250625145427_481.png",
-    "Pasted Image 20250625144933_787.png"
+    "03Project(项目)/work/工作项目/opencompass/TheoremQA/Pasted image 20251211160329.png",
+    "03Project(项目)/work/工作项目/opencompass/TheoremQA/Pasted image 20251211153944.png",
+    "03Project(项目)/第二大脑/皆可问.canvas"
   ]
 }

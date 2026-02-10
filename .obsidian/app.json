@@ -31,5 +31,12 @@
     "tars:assistant#OpenAI",
     "tars:user#User",
     "tars:newChat#NewChat"
-  ]
+  ],
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "openBehavior": "file:01个人主页/主页",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./附件",
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true
 }
