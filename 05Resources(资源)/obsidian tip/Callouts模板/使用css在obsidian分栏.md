@@ -1,11 +1,7 @@
 ---
-tags:
-  - CSS
-  - Obsidian
-  - Snippets
-  - Layout
-  - Flexbox
-creation_date: 2025-07-01
+tags: [Obsidian/CSS]
+type: reference
+status: 🌿
 ---
 
 # Obsidian 分栏布局探索之旅：从 HTML 到原生 Flexbox 响应式布局

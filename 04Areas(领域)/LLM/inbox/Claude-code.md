@@ -1,3 +1,9 @@
+---
+tags: [编程/ClaudeCode]
+type: note
+status: 🌱
+---
+
 Claude Code 本质上就是一个 **AI Agent**，而且是目前（2026年初）最实用、最被大规模实际使用的“终端/本地环境型” coding + general agent 之一。
 
 Anthropic 官方自己也反复称它为 **agentic coding tool** / **agentic coding solution**，甚至后来直接把支撑它的底层框架改名叫 **Claude Agent SDK**（从 Claude Code SDK 升级而来）。

@@ -1,12 +1,7 @@
 ---
-tags:
-  - CSS
-  - Obsidian
-  - Snippets
-  - SVG
-  - Callout
-  - Animation
-creation_date: 2025-07-02
+tags: [Obsidian/CSS]
+type: reference
+status: 🌿
 ---
 
 # 

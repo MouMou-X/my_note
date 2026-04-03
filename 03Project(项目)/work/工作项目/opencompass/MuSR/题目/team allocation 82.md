@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 ## 📊 MuSR 数据样本校验报告（索引 82）
 
 ---

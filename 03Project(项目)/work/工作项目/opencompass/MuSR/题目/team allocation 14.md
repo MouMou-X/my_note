@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 错误类型：故事内容与逻辑树叶子节点：不一致
 1、逻辑树：Jenna 经常搞混原料比例 
 1、故事原文：Monica搞混原料比例

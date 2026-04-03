@@ -1,6 +1,8 @@
 ---
-url: https://help.obsidian.md/Extending+Obsidian/Obsidian+URI
-url编码: https://en.wikipedia.org/wiki/Percent-encoding
+tags:
+  - Obsidian
+type: reference
+status: 🌿
 ---
 
 ## Obsidian URL 操作详解：释放你的自动化潜能

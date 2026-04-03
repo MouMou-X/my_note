@@ -3,7 +3,9 @@
   "enabledCssSnippets": [
     "新建文本文档",
     "css分栏",
-    "homepage"
+    "homepage",
+    "svg",
+    "property-tag-style"
   ],
   "cssTheme": "Blue Topaz",
   "accentColor": "#81a1c1",

@@ -1,65 +1,30 @@
-用来临时捕捉想法、链接等；定期清理并将内容归档到其他类别。
-
 
 ```dataviewjs
-// ==========================================
-// 1. 请务必修改这里！确保和你的文件夹名字一模一样
-// ==========================================
-const folderPath = "07daily"; 
-
-// 这里是你想要寻找的标题关键字（只要标题里包含这几个字就行，不用写全，防止因为空格或符号导致匹配失败）
-const headerKeyword = "📥 收集箱"; 
-
-// 搜索最近多少天的文件
-const limit = 30; 
-
-// ==========================================
-
-const pages = dv.pages(`"${folderPath}"`)
-    .sort(p => p.file.name, "desc")
-    .limit(limit);
-
-// 用于调试：如果没有找到任何文件，打印一条错误信息
-if (pages.length === 0) {
-    dv.paragraph(`❌ **错误**：在路径 "${folderPath}" 下没有找到任何文件。请检查代码第一行的文件夹名称是否正确。`);
-}
-
-for (let page of pages) {
-    const content = await dv.io.load(page.file.path);
-    const lines = content.split("\n"); // 把全文按行切分
-    
-    let isReadingTargetSection = false; // 开关：是否正在读取目标区域
-    let tasks = []; // 存放提取到的任务
-
-    for (let line of lines) {
-        // 1. 检测标题行
-        // 如果行是以 # 开头，并且包含关键字
-        if (line.startsWith("#") && line.includes(headerKeyword)) {
-            isReadingTargetSection = true;
-            continue; // 跳过标题这一行，看下一行
-        }
-
-        // 2. 如果已经开启读取模式，检测是否遇到了“下一个标题”
-        // 如果遇到了新的 # 标题，说明这部分内容结束了，停止读取
-        if (isReadingTargetSection && line.startsWith("#")) {
-            break; 
-        }
-
-        // 3. 收集任务
-        // 只有在“读取模式”下，且这一行包含 "- [ ]" 或 "- [x]" 时才收集
-        if (isReadingTargetSection) {
-            // 正则说明：匹配以 - 或 * 开头，后面跟着 [ ] 或 [x] 的行
-            if (/^\s*[-*] \[[ xX]\]/.test(line)) {
-                tasks.push(line);
-            }
-        }
-    }
-
-    // 只有当这一天找到了任务时，才显示出来
-    if (tasks.length > 0) {
-        dv.header(3, page.file.link); // 显示日期链接
-        dv.list(tasks);               // 显示任务列表
-    }
+const items = [
+    ["🏠", "主页", "01个人主页/主页"],
+    ["💡", "收集箱", "02Inbox(收集箱)/Inbox_main"],
+    ["💼", "项目", "03Project(项目)/Project_main"],
+    ["✨", "领域", "04Areas(领域)/Areas_main"],
+    ["📚", "资源", "05Resources(资源)/Resources_main"],
+    ["🥇", "归档", "06Archive(归档)/Archive_main"],
+    ["🔍", "Wiki", "Wiki"],
+];
+const cur = dv.current().file.name;
+const nav = dv.el("nav", "", {
+    attr: { style: "display:flex;gap:4px;padding:8px 12px;background:var(--background-secondary);border-radius:8px;flex-wrap:wrap;justify-content:center;border:1px solid var(--background-modifier-border);margin-bottom:16px;" }
+});
+for (const [emoji, label, path] of items) {
+    const active = cur === path.split("/").pop();
+    nav.createEl("a", {
+        text: `${emoji} ${label}`,
+        cls: "internal-link",
+        attr: { "data-href": path, href: path,
+            style: `padding:6px 14px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:${active?"600":"normal"};background:${active?"var(--interactive-accent)":"transparent"};color:${active?"var(--text-on-accent)":"var(--text-muted)"};` }
+    });
 }
 ```
 
+> [!tip]
+> 用来临时捕捉想法、链接等；定期清理并将内容归档到其他类别。
+
+![[Inbox_base.base]]

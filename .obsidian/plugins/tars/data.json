@@ -14,12 +14,22 @@
       }
     },
     {
-      "tag": "OpenAI",
+      "tag": "gpt",
       "vendor": "OpenAI",
       "options": {
         "apiKey": "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",
         "baseURL": "https://api.openai.com/v1",
-        "model": "gpt-5",
+        "model": "gpt-5.1",
+        "parameters": {}
+      }
+    },
+    {
+      "tag": "Qwen",
+      "vendor": "Qwen",
+      "options": {
+        "apiKey": "sk-b697dd217d954fd38cb6809b9377756f",
+        "baseURL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "model": "qwen-plus",
         "parameters": {}
       }
     }

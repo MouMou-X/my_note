@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Archive
+    filters:
+      and:
+        - file.folder.containsAny("06Archive(归档)")
+        - '!file.name.endsWith("main")'
+        - file.ext != "base"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - tags
+      - file.mtime
+    cardSize: 250

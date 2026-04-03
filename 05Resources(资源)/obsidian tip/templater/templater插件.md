@@ -1,3 +1,8 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
 
 - 官方手册网站
 - https://silentvoid13.github.io/Templater/

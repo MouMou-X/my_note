@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Areas
+    filters:
+      and:
+        - file.folder.containsAny("04Areas(领域)")
+        - '!file.name.endsWith("main")'
+        - file.ext != "base"
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 250

@@ -1,3 +1,9 @@
+---
+tags: [数学/线性代数]
+type: prompt
+status: 🌳
+---
+
 ```markdown
 # 角色
 你是一个专门处理和清洗OCR文本的专家。

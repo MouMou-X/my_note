@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 我按两个维度给你讲这个 CLI 的 `main`：
 
 1. 这个命令入口整体“干了什么事”（执行流程）

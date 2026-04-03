@@ -1,12 +1,7 @@
 ---
-类型: map
-status:
-  - rotten
-url:
-  - https://chatgpt.com/c/693840ae-fde4-8321-af8d-e28f92a47bb4
-  - https://gemini.google.com/app/b690b6c501b4b888
-tags:
-  - "#LLM"
+tags: [LLM]
+type: moc
+status: 🌱
 ---
 
 ![[深度学习_Map#🏛️ 深度学习基础 (Foundations)]]

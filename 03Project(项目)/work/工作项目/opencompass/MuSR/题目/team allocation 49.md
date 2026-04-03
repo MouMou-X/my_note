@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 一、存在唯一解
 
 |**Name**|**Skills** Operate machinery, Pack and ship|**Cooperation** Amelia, Connor, Rachel|

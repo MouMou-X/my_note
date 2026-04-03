@@ -1,0 +1,86 @@
+/* ============================================
+   让 type / status 属性值呈现标签（tag）外观
+   属性类型保持 text，避免点击跳转到错误搜索
+   同时覆盖：属性面板 + Bases 表格视图
+   ============================================ */
+
+/* ---- 1. 属性面板（笔记顶部 Properties） ---- */
+
+/* 父容器：取消拉伸，让子元素自适应内容宽度 */
+.metadata-property[data-property-key="status"] .metadata-property-value,
+.metadata-property[data-property-key="type"] .metadata-property-value {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* 输入框：内容自适应的标签胶囊 */
+.metadata-property[data-property-key="status"] .metadata-input-longtext,
+.metadata-property[data-property-key="type"] .metadata-input-longtext {
+  width: auto !important;
+  min-width: 2em;
+  max-width: 100%;
+  flex: none;
+  background-color: var(--tag-background);
+  color: var(--tag-color);
+  border-radius: var(--tag-radius, 2em);
+  padding: 0.1em 0.6em;
+  font-size: var(--tag-size, var(--font-smaller));
+  text-decoration: var(--tag-decoration, none);
+  line-height: 1.5;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease;
+}
+
+/* 聚焦编辑时恢复正常输入框 */
+.metadata-property[data-property-key="status"] .metadata-input-longtext:focus-within,
+.metadata-property[data-property-key="type"] .metadata-input-longtext:focus-within {
+  background-color: var(--background-modifier-form-field);
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border-focus);
+  border-radius: var(--input-radius);
+  padding: var(--size-4-1) var(--size-4-2);
+  width: 100% !important;
+  flex: 1;
+}
+
+/* ---- 2. Bases 表格视图 ---- */
+
+/* 单元格：改为 flex 布局，不强制子元素撑满 */
+.bases-td[data-property="note.type"] .bases-table-cell,
+.bases-td[data-property="note.status"] .bases-table-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 输入框：标签胶囊，宽度跟随文字 */
+.bases-td[data-property="note.type"] .metadata-input-longtext,
+.bases-td[data-property="note.status"] .metadata-input-longtext {
+  width: auto !important;
+  min-width: 1.5em;
+  flex: none !important;
+  background-color: var(--tag-background);
+  color: var(--tag-color);
+  border-radius: var(--tag-radius, 2em);
+  padding: 0.05em 0.55em;
+  font-size: var(--tag-size, var(--font-smaller));
+  text-decoration: var(--tag-decoration, none);
+  line-height: 1.5;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease;
+}
+
+/* Bases 中聚焦编辑时恢复 */
+.bases-td[data-property="note.type"] .metadata-input-longtext:focus,
+.bases-td[data-property="note.status"] .metadata-input-longtext:focus {
+  background-color: var(--background-modifier-form-field);
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border-focus);
+  border-radius: var(--input-radius);
+  padding: var(--size-4-1) var(--size-4-2);
+  width: 100% !important;
+  flex: 1 !important;
+}

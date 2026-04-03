@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 # b-Dataview基础概念
 
 ## 一、核心概念

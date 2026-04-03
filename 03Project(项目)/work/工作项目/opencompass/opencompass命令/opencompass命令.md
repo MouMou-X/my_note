@@ -1,8 +1,9 @@
 ---
-type:
-  - note
-父任务: "[[opencompass]]"
+tags: [LLM/Eval]
+type: note
+status: 🌿
 ---
+
 ![[opencompass#关联]]
 
 ---

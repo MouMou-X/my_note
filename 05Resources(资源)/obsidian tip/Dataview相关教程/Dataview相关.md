@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 # Obsidian Dataview插件使用教程
 
 ## 一、Dataview简介

@@ -1,8 +1,9 @@
 ---
-状态: inbox
-tags:
-  - "#LLM/工程/Agent/Agent开发"
+tags: [LLM/Agent]
+type: reference
+status: 🌿
 ---
+
 # Agent 开发学习指南 - 基于 OpenAI 工作流
 
 ## 目录

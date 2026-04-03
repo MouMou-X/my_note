@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 > [!tip] 注意
 > - banners已经一年未更新维护
 > - 建议使用pixel banner

@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 # 如何在模式之间切换
 
 - 从 **普通模式** 进入 **插入模式**:

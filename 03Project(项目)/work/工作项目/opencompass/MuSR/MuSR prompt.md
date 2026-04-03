@@ -1,4 +1,8 @@
-
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
 
 ```
 python tools/prompt_viewer.py opencompass\configs\datasets\musr\musr_gen_b47fd3.py -n -p "musr_team_allocation"

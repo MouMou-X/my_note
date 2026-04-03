@@ -1,15 +1,9 @@
 ---
-类型: "Project"
-状态: In Progress(进行中)
-领域: '[[benchmark]]'
-目标: '[[]]'
-开始日期: 2025-12-11 13:09
-截至日期: 2025-12-11 13:09
-优先级: Urgent
-归档: false
-Edited: 2025-12-11 13:09
-Created: 2025-12-11 13:09
+tags: [LLM/Eval]
+type: note
+status: 🌿
 ---
+
  ###### 关联
 添加[[Rescources]]       添加[[Notes]]       添加[[Tasks]]
 

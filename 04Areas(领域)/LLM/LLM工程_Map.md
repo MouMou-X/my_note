@@ -1,10 +1,9 @@
 ---
-类型: map
-status:
-  - seed
-tags:
-  - "#LLM/工程"
+tags: [LLM]
+type: moc
+status: 🌱
 ---
+
 # 🛠️ 工程 (Engineering) -> _你目前最关注的区域_
 
 ![[LLM工程_RAG工程_Map#^ab61f8]]

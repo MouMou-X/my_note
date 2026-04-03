@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Inbox
+    filters:
+      and:
+        - file.folder.containsAny("02Inbox(收集箱)")
+        - '!file.name.endsWith("main")'
+        - file.ext != "base"
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 290
+    columnSize:
+      file.name: 408
+      file.tags: 645

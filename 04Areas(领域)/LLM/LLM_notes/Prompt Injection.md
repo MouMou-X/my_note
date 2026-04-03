@@ -1,3 +1,9 @@
+---
+tags: [LLM/PromptEng]
+type: note
+status: 🌱
+---
+
 # gemini3pro
 
 ```prompt

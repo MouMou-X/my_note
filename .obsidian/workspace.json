@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "23ffcbe798d10086",
+        "id": "68997add96dc77e8",
         "type": "tabs",
         "children": [
           {
-            "id": "17a059e9c7a1040c",
+            "id": "6a228e881564748c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01个人主页/主页.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "主页"
+              "title": "新标签页"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:LLM/工程",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,13 +91,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03Project(项目)/work/工作项目/opencompass/opencompass.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "opencompass 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -110,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04Areas(领域)/LLM/Claude-code 本地手工使用与评测 1.md",
+                "file": "04Areas(领域)/数学/线性代数/1.4 线性代数的应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Claude-code 本地手工使用与评测 1 的反向链接列表"
+              "title": "1.4 线性代数的应用 的反向链接列表"
             }
           },
           {
@@ -144,15 +139,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04Areas(领域)/LLM/Claude-code 本地手工使用与评测 1.md",
+                "file": "01个人主页/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Claude-code 本地手工使用与评测 1 的出链列表"
+              "title": "主页 的出链列表"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "b0dc2ee6513e9c63",
@@ -173,66 +169,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
+    "width": 434.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
       "graph:查看关系图谱": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-custom-frames:Open gemini": false,
+      "obsidian-custom-frames:Open Claude": false,
+      "obsidian-custom-frames:Open 工作文档": false,
+      "obsidian-custom-frames:Open 单词闪卡": false,
+      "obsidian-custom-frames:Open chatGPT": false
     }
   },
-  "active": "17a059e9c7a1040c",
+  "active": "6a228e881564748c",
   "lastOpenFiles": [
-    "04Areas(领域)/LLM/ReAct框架.md",
     "01个人主页/主页.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/python/python.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/python/get方法.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/note/钩子（hook）.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/note/函数、对象、属性、方法.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/config/Inbox_base.base",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-9/本周代办.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-9/opencompass命令.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-9/NPHardEval.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-9/NPHardEval(双语).md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-5/渐进式披露(progressive disclosure).md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24/bbeh_boardgame_qa_7.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24/（双语）测量大型语言模型的短格式事实准确性.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24/（双语）一个包含矛盾信息的自然语言推理数据集.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24/bbeh_boardgame_qa_41.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24/bbeh_boardgame_qa_20.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/配置工具.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/未命名.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/Runner.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/op架构分析.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/Model.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/Evaluator.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/ICL框架.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23/cli入口.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-2/本周代办.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-17/TECHNICAL REPORT OF ATTENTION RESIDUALS.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-12/README.md",
+    "02Inbox(收集箱)/02Inbox(收集箱)/python",
+    "02Inbox(收集箱)/02Inbox(收集箱)/note",
+    "02Inbox(收集箱)/02Inbox(收集箱)/config",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-9",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-5",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-24",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-23",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-2",
+    "02Inbox(收集箱)/02Inbox(收集箱)/3-17",
+    "01个人主页/个人主页.canvas",
     "01个人主页/配置文件/img/v2a6f72c5.png",
     "01个人主页/配置文件/img/a342af7d_r.jpg",
     "01个人主页/配置文件/img/Second Brain.png",
     "01个人主页/配置文件/img/Second_Brain.png",
     "01个人主页/配置文件/img/1d71e4a18.jpg",
-    "01个人主页/个人主页.canvas",
-    "04Areas(领域)/LLM/深度学习_Map.md",
-    "01个人主页/规划文档.md",
-    "01个人主页/规划文档-gemini.md",
-    "01个人主页/配置文件/img/未确认 37515.crdownload",
-    "01个人主页/配置文件/img/未确认 808222.crdownload",
-    "01个人主页/配置文件/img/未确认 647532.crdownload",
-    "04Areas(领域)/Areas_main.md",
-    "04Areas(领域)/Tools.md",
-    "04Areas(领域)/LLM/00LLM_Map.md",
-    "Wiki.md",
-    "06Archive(归档)/Archive_main.md",
-    "02Inbox(收集箱)/CaLM/wiki.md",
-    "02Inbox(收集箱)/CaLM/CaLM.md",
-    "01个人主页/目标/个人网页.md",
-    "02Inbox(收集箱)/Inbox_main.md",
-    "03Project(项目)/work/工作项目/复杂指令遵循/Gemini2.5pro06-05完成复杂指令遵循任务建议.md",
-    "02Inbox(收集箱)/note/钩子（hook）.md",
-    "03Project(项目)/Project_main.md",
-    "05Resources(资源)/Resources_main.md",
-    "04Areas(领域)/LLM/LLM_notes/Agent开发学习指南.md",
-    "07daily/07daily.md",
-    "03Project(项目)/work/工作项目/calm/概率论/样本方差.md",
-    "04Areas(领域)/数学/线性代数/0.目录-线性代数的集合意义.md",
-    "MuSR.md",
-    "未命名.md",
-    "通过可扩展检索实现条件记忆：大型语言模型稀疏性的新维度.md",
-    "03Project(项目)/work/工作项目/calm/论文/【论文】语言模型因果评估.md",
-    "03Project(项目)/work/工作项目/calm/论文",
-    "03Project(项目)/work/工作项目/calm/矩",
-    "03Project(项目)/work/工作项目/calm/概率论",
-    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/__init__.cpython-310.pyc",
-    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/math.cpython-310.pyc",
-    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__pycache__/weather.cpython-310.pyc",
-    "03Project(项目)/work/工作项目/calm/zzz-python/my_tools_enhancer/actions_example/__init__.py",
     "Pasted image 20260116105247.png",
     "03Project(项目)/work/面试/Pasted Image 20250625144800_965.png",
     "03Project(项目)/work/面试/Pasted image 20250625142250.png",

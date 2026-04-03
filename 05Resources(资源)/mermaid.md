@@ -1,11 +1,8 @@
 ---
-日期: 2025-06-24
-tags:
-  - "#markdown"
-  - "#mermaid"
-url: http://mermaid.js.org/intro/
+tags: [Obsidian]
+type: reference
+status: 🌿
 ---
-
 
 # 概述
 ## Mermaid：将文本被转化为图表的利器

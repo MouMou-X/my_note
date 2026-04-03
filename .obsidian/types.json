@@ -4,7 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Edited": "datetime",
-    "Created": "datetime",
+    "Created": "date",
     "日期": "date",
     "持续时间": "number",
     "持续时间(分钟)": "number",
@@ -23,11 +23,12 @@
     "habit_2": "checkbox",
     "habit_3": "checkbox",
     "habit_4": "checkbox",
-    "type": "multitext",
-    "status": "multitext",
+    "type": "text",
+    "status": "text",
     "priority": "multitext",
     "sleep_hours": "number",
     "url": "multitext",
-    "类型": "multitext"
+    "类型": "multitext",
+    "date": "date"
   }
 }

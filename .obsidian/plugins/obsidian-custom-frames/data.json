@@ -1,0 +1,65 @@
+{
+  "frames": [
+    {
+      "url": "https://gemini.google.com/app",
+      "displayName": "gemini",
+      "icon": "sparkles",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://claude.ai/new",
+      "displayName": "Claude",
+      "icon": "cannabis",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdyrPBREcy3BNxrBVZd1wyK0",
+      "displayName": "工作文档",
+      "icon": "briefcase",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "file:///D:/learning/my_note/05Resources(%E8%B5%84%E6%BA%90)/%E8%8B%B1%E8%AF%AD%E9%97%AA%E5%8D%A1/index.html",
+      "displayName": "单词闪卡",
+      "icon": "star",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "displayName": "chatGPT",
+      "icon": "bot",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

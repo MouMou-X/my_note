@@ -1,10 +1,9 @@
 ---
-类型: map
-status:
-  - seed
-tags:
-  - "#LLM/模型训练"
+tags: [LLM/Training]
+type: moc
+status: 🌱
 ---
+
 # 🏋️ 模型训练 (Model Training) 
 
 **微调实战**：[[PEFT(LoRA/QLoRA)]], [[全量微调(Full Fine-tuning)]], [[指令微调(Instruction Tuning)]]

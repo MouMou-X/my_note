@@ -1,3 +1,9 @@
+---
+tags: [LLM/Agent]
+type: note
+status: 🌱
+---
+
 ### 角色：
 你是一个资深的产品经理和软件工程师。
 

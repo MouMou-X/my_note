@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 Vim 的历史很悠久，它是一个 Unix 世界的经典，对后来的许多文本编辑器都有深远影响。让我们来详细讲讲它的历史和重要节点。
 
 **Vim 的起源：它的前身 vi**

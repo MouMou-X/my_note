@@ -1,0 +1,13 @@
+  .rotating-rect {
+    transform-origin: 100px 100px; /* 设置旋转中心点 */
+    animation: rotate 5s linear infinite; /* 应用动画 */
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

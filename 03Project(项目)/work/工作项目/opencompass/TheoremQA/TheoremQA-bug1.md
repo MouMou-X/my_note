@@ -1,8 +1,8 @@
 ---
-类型: bug
+tags: [LLM/Eval]
+type: note
+status: 🌿
 ---
-
-
 
 ![[Pasted image 20251211145619.png]]
 

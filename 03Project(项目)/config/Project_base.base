@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: Project
+    filters:
+      and:
+        - file.folder.containsAny("03Project(项目)")
+        - '!file.name.endsWith("main")'
+        - file.ext != "base"
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - type
+      - status
+      - file.name
+      - file.tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 160
+    columnSize:
+      note.type: 92
+      file.name: 360
+      file.tags: 294
+    markers: bullet
+    indentProperties: false

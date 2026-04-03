@@ -1,3 +1,9 @@
+---
+tags: [Obsidian/Plugin]
+type: reference
+status: 🌿
+---
+
 #vim
 # 一、Vim简介
 - **Vim** 是一个历史悠久的**模态文本编辑器**，它使用不同的模式（如普通模式、插入模式）来区分命令和文本输入，以实现极致高效的键盘操作。

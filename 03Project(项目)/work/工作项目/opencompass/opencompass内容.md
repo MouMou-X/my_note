@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 - 模型和数据集调用
 模型和数据集以配置文件形式预先存储在`configs/models`和 中`configs/datasets`。用户可以使用 来查看或筛选当前可用的模型和数据集配置`tools/list_configs.py`
 ```

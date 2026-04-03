@@ -1,10 +1,9 @@
 ---
-工作区:
-  - https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlzeYoPLFRQMaE3nWdqbropQ?corpId=dingd8e1123006514592&utm_medium=im_card&cid=1030821%3A5053772406&iframeQuery=utm_medium%3Dim_card%26utm_source%3Dim&utm_scene=person_space&utm_source=im
-claude-trace-url:
-  - https://www.npmjs.com/package/@mariozechner/claude-trace?activeTab=readme
-  - https://www.npmjs.com/package/@loki-zhou/claude-trace
+tags: [编程/ClaudeCode]
+type: note
+status: 🌿
 ---
+
 # Step 0 安装[[Claude-code]]
 使用[[Claude-trace]]来执行。
 - 安装[[Claude-trace]]
@@ -85,7 +84,6 @@ set ANTHROPIC_DEFAULT_OPUS_MODEL=qwen3-coder-plus
 
 set ANTHROPIC_DEFAULT_HAIKU_MODEL=qwen3-coder-plus
 ```
-![[Pasted image 20260116105247.png]]
 
 
 

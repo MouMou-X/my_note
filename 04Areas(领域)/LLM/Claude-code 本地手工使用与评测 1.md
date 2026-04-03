@@ -1,8 +1,9 @@
 ---
-claude-trace-url:
-  - https://www.npmjs.com/package/@mariozechner/claude-trace?activeTab=readme
-  - https://www.npmjs.com/package/@loki-zhou/claude-trace
+tags: [编程/ClaudeCode]
+type: note
+status: 🌿
 ---
+
 # Step 0 安装[[Claude-code]]
 使用[[Claude-trace]]来执行。
 - 安装[[Claude-trace]]

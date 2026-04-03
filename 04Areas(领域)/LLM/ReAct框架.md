@@ -1,3 +1,9 @@
+---
+tags: [LLM/Agent]
+type: note
+status: 🌿
+---
+
 # ReAct 范式深度解析：大语言模型中推理与行动的协同架构研究报告
 
 ## 1. 执行摘要与引言

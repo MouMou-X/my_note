@@ -1,3 +1,9 @@
+---
+tags: [LLM/Eval]
+type: note
+status: 🌿
+---
+
 一、存在唯一解
 - **技能矩阵** (1=Bad, 2=Okay, 3=Good):
 

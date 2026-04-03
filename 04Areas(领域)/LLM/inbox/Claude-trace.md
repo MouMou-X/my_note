@@ -1,3 +1,9 @@
+---
+tags: [编程/ClaudeCode]
+type: note
+status: 🌱
+---
+
 **claude-trace** 是一个专门用来“偷看”/记录 **[[Claude Code]]**（Anthropic推出的命令行AI编程工具）内部通信的开源小工具。
 
 简单来说，它就是一个 **Claude Code 的网络请求拦截器 + 可视化查看器**，能让你看到平时完全看不到的后台细节。

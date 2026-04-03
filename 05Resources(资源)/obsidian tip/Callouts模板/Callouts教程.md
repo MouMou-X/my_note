@@ -1,5 +1,7 @@
 ---
-url: https://help.obsidian.md/callouts
+tags: [Obsidian/CSS]
+type: reference
+status: 🌿
 ---
 
 # 一、Callouts支持markdown、Wiki links、和嵌入
