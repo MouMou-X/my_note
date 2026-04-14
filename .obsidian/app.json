@@ -32,11 +32,12 @@
     "tars:user#User",
     "tars:newChat#NewChat"
   ],
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showLineNumber": false,
   "openBehavior": "file:01个人主页/主页",
   "newFileLocation": "current",
   "attachmentFolderPath": "./附件",
   "newLinkFormat": "shortest",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true
 }
